@@ -1,1622 +1,1801 @@
+xADUser EleCha {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'EleCha';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser SamAli {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'SamAli';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser GunAnd {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'GunAnd';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser YelBet {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'YelBet';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser ElhAtl {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'ElhAtl';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser SimPar {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'SimPar';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser BenJer {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'BenJer';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser SarMoa {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'SarMoa';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser LubBet {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'LubBet';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser GayKri {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'GayKri';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser AliLun {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'AliLun';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser DanMaz {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'DanMaz';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser TonPal {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'TonPal';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser EriGon {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'EriGon';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser JacBri {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'JacBri';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser KriMaz {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'KriMaz';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser SasJen {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'SasJen';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser MorMaz {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'MorMaz';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser PelRos {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'PelRos';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser EliJan {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'EliJan';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser EleCha {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'EleCha';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser SamAli {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'SamAli';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser GunAnd {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'GunAnd';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser YelBet {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'YelBet';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser ElhAtl {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'ElhAtl';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser SimPar {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'SimPar';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser BenJer {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'BenJer';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser SarMoa {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'SarMoa';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser LubBet {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'LubBet';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser GayKri {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'GayKri';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser AliLun {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'AliLun';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser DanMaz {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'DanMaz';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser TonPal {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'TonPal';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser EriGon {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'EriGon';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser JacBri {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'JacBri';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser KriMaz {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'KriMaz';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser SasJen {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'SasJen';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser MorMaz {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'MorMaz';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser PelRos {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'PelRos';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser EliJan {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'EliJan';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser EleCha {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'EleCha';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser SamAli {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'SamAli';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser GunAnd {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'GunAnd';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser YelBet {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'YelBet';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser ElhAtl {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'ElhAtl';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser SimPar {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'SimPar';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser BenJer {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'BenJer';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser SarMoa {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'SarMoa';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser LubBet {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'LubBet';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser GayKri {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'GayKri';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser AliLun {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'AliLun';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser DanMaz {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'DanMaz';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser TonPal {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'TonPal';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser EriGon {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'EriGon';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser JacBri {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'JacBri';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser KriMaz {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'KriMaz';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser SasJen {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'SasJen';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser MorMaz {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'MorMaz';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser PelRos {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'PelRos';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser EliJan {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'EliJan';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser EleCha {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'EleCha';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser SamAli {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'SamAli';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser GunAnd {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'GunAnd';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser YelBet {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'YelBet';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser ElhAtl {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'ElhAtl';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser SimPar {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'SimPar';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser BenJer {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'BenJer';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser SarMoa {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'SarMoa';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser LubBet {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'LubBet';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser GayKri {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'GayKri';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser AliLun {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'AliLun';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser DanMaz {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'DanMaz';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser TonPal {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'TonPal';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser EriGon {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'EriGon';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser JacBri {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'JacBri';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser KriMaz {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'KriMaz';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser SasJen {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'SasJen';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser MorMaz {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'MorMaz';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser PelRos {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'PelRos';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser EliJan {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'EliJan';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser EleCha {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'EleCha';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser SamAli {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'SamAli';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser GunAnd {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'GunAnd';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser YelBet {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'YelBet';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser ElhAtl {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'ElhAtl';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser SimPar {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'SimPar';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser BenJer {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'BenJer';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser SarMoa {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'SarMoa';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser LubBet {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'LubBet';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser GayKri {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'GayKri';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser AliLun {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'AliLun';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser DanMaz {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'DanMaz';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser TonPal {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'TonPal';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser EriGon {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'EriGon';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser JacBri {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'JacBri';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser KriMaz {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'KriMaz';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser SasJen {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'SasJen';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser MorMaz {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'MorMaz';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser PelRos {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'PelRos';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser EliJan {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'EliJan';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser EleCha {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'EleCha';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser SamAli {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'SamAli';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser GunAnd {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'GunAnd';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser YelBet {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'YelBet';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser ElhAtl {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'ElhAtl';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser SimPar {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'SimPar';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser BenJer {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'BenJer';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser SarMoa {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'SarMoa';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser LubBet {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'LubBet';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser GayKri {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'GayKri';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser AliLun {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'AliLun';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser DanMaz {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'DanMaz';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser TonPal {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'TonPal';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser EriGon {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'EriGon';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser JacBri {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'JacBri';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser KriMaz {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'KriMaz';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser SasJen {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'SasJen';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser MorMaz {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'MorMaz';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser PelRos {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'PelRos';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser EliJan {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'EliJan';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser EleCha {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'EleCha';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser SamAli {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'SamAli';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser GunAnd {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'GunAnd';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser YelBet {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'YelBet';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser ElhAtl {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'ElhAtl';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser SimPar {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'SimPar';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser BenJer {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'BenJer';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser SarMoa {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'SarMoa';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser LubBet {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'LubBet';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser GayKri {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'GayKri';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser AliLun {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'AliLun';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser DanMaz {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'DanMaz';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser TonPal {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'TonPal';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser EriGon {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'EriGon';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser JacBri {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'JacBri';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser KriMaz {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'KriMaz';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser SasJen {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'SasJen';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser MorMaz {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'MorMaz';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser PelRos {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'PelRos';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser EliJan {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'EliJan';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser EleCha {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'EleCha';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser SamAli {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'SamAli';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser GunAnd {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'GunAnd';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser YelBet {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'YelBet';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser ElhAtl {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'ElhAtl';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser SimPar {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'SimPar';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser BenJer {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'BenJer';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser SarMoa {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'SarMoa';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser LubBet {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'LubBet';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser GayKri {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'GayKri';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser AliLun {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'AliLun';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser DanMaz {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'DanMaz';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser TonPal {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'TonPal';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser EriGon {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'EriGon';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser JacBri {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'JacBri';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser KriMaz {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'KriMaz';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser SasJen {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'SasJen';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser MorMaz {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'MorMaz';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser PelRos {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'PelRos';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser EliJan {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'EliJan';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser EleCha {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'EleCha';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser SamAli {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'SamAli';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser GunAnd {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'GunAnd';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser YelBet {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'YelBet';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser ElhAtl {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'ElhAtl';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser SimPar {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'SimPar';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser BenJer {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'BenJer';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser SarMoa {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'SarMoa';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser LubBet {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'LubBet';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser GayKri {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'GayKri';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser AliLun {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'AliLun';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser DanMaz {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'DanMaz';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser TonPal {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'TonPal';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser EriGon {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'EriGon';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser JacBri {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'JacBri';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser KriMaz {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'KriMaz';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser SasJen {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'SasJen';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser MorMaz {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'MorMaz';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser PelRos {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'PelRos';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
+	            xADUser EliJan {
+	
+
+	            DomainName  = $node.DomainName;
+	            UserName    = 'EliJan';
+	            Description = 'Lability Test Lab user';
+	            Password    = $Credential;
+	            Ensure      = 'Present';
+	            DependsOn   = '[xADDomain]ADDomain';
+	        }
 
-
-﻿            xADUser CheErd {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'CheErd';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser MadLue {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'MadLue';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser AmeGua {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'AmeGua';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser BriGlo {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'BriGlo';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser AllGoo {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'AllGoo';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser SavSpo {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'SavSpo';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser JerVeu {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'JerVeu';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser DeoSch {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'DeoSch';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser BetLub {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'BetLub';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser VivGay {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'VivGay';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser LavSip {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'LavSip';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser JanVan {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'JanVan';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser TonCri {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'TonCri';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser GonPac {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'GonPac';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser BriJac {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'BriJac';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser CalMed {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'CalMed';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser DocBay {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'DocBay';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser MauRei {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'MauRei';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser GinMue {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'GinMue';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser EldKli {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'EldKli';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser CheErd {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'CheErd';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser MadLue {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'MadLue';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser AmeGua {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'AmeGua';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser BriGlo {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'BriGlo';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser AllGoo {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'AllGoo';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser SavSpo {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'SavSpo';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser JerVeu {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'JerVeu';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser DeoSch {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'DeoSch';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser BetLub {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'BetLub';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser VivGay {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'VivGay';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser LavSip {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'LavSip';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser JanVan {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'JanVan';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser TonCri {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'TonCri';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser GonPac {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'GonPac';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser BriJac {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'BriJac';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser CalMed {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'CalMed';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser DocBay {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'DocBay';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser MauRei {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'MauRei';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser GinMue {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'GinMue';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser EldKli {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'EldKli';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser CheErd {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'CheErd';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser MadLue {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'MadLue';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser AmeGua {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'AmeGua';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser BriGlo {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'BriGlo';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser AllGoo {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'AllGoo';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser SavSpo {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'SavSpo';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser JerVeu {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'JerVeu';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser DeoSch {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'DeoSch';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser BetLub {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'BetLub';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser VivGay {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'VivGay';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser LavSip {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'LavSip';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser JanVan {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'JanVan';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser TonCri {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'TonCri';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser GonPac {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'GonPac';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser BriJac {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'BriJac';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser CalMed {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'CalMed';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser DocBay {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'DocBay';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser MauRei {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'MauRei';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser GinMue {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'GinMue';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser EldKli {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'EldKli';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser CheErd {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'CheErd';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser MadLue {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'MadLue';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser AmeGua {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'AmeGua';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser BriGlo {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'BriGlo';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser AllGoo {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'AllGoo';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser SavSpo {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'SavSpo';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser JerVeu {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'JerVeu';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser DeoSch {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'DeoSch';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser BetLub {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'BetLub';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser VivGay {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'VivGay';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser LavSip {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'LavSip';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser JanVan {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'JanVan';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser TonCri {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'TonCri';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser GonPac {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'GonPac';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser BriJac {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'BriJac';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser CalMed {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'CalMed';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser DocBay {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'DocBay';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser MauRei {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'MauRei';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser GinMue {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'GinMue';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser EldKli {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'EldKli';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser CheErd {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'CheErd';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser MadLue {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'MadLue';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser AmeGua {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'AmeGua';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser BriGlo {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'BriGlo';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser AllGoo {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'AllGoo';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser SavSpo {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'SavSpo';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser JerVeu {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'JerVeu';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser DeoSch {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'DeoSch';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser BetLub {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'BetLub';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser VivGay {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'VivGay';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser LavSip {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'LavSip';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser JanVan {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'JanVan';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser TonCri {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'TonCri';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser GonPac {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'GonPac';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser BriJac {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'BriJac';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser CalMed {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'CalMed';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser DocBay {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'DocBay';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser MauRei {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'MauRei';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser GinMue {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'GinMue';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser EldKli {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'EldKli';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser CheErd {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'CheErd';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser MadLue {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'MadLue';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser AmeGua {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'AmeGua';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser BriGlo {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'BriGlo';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser AllGoo {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'AllGoo';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser SavSpo {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'SavSpo';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser JerVeu {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'JerVeu';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser DeoSch {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'DeoSch';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser BetLub {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'BetLub';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser VivGay {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'VivGay';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser LavSip {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'LavSip';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser JanVan {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'JanVan';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser TonCri {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'TonCri';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser GonPac {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'GonPac';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser BriJac {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'BriJac';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser CalMed {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'CalMed';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser DocBay {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'DocBay';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser MauRei {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'MauRei';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser GinMue {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'GinMue';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser EldKli {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'EldKli';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser CheErd {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'CheErd';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser MadLue {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'MadLue';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser AmeGua {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'AmeGua';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser BriGlo {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'BriGlo';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser AllGoo {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'AllGoo';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser SavSpo {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'SavSpo';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser JerVeu {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'JerVeu';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser DeoSch {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'DeoSch';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser BetLub {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'BetLub';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser VivGay {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'VivGay';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser LavSip {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'LavSip';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser JanVan {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'JanVan';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser TonCri {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'TonCri';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser GonPac {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'GonPac';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser BriJac {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'BriJac';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser CalMed {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'CalMed';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser DocBay {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'DocBay';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser MauRei {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'MauRei';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser GinMue {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'GinMue';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser EldKli {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'EldKli';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser CheErd {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'CheErd';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser MadLue {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'MadLue';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser AmeGua {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'AmeGua';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser BriGlo {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'BriGlo';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser AllGoo {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'AllGoo';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser SavSpo {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'SavSpo';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser JerVeu {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'JerVeu';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser DeoSch {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'DeoSch';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser BetLub {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'BetLub';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser VivGay {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'VivGay';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser LavSip {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'LavSip';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser JanVan {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'JanVan';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser TonCri {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'TonCri';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser GonPac {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'GonPac';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser BriJac {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'BriJac';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser CalMed {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'CalMed';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser DocBay {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'DocBay';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser MauRei {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'MauRei';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser GinMue {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'GinMue';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser EldKli {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'EldKli';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser CheErd {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'CheErd';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser MadLue {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'MadLue';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser AmeGua {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'AmeGua';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser BriGlo {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'BriGlo';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser AllGoo {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'AllGoo';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser SavSpo {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'SavSpo';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser JerVeu {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'JerVeu';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser DeoSch {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'DeoSch';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser BetLub {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'BetLub';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser VivGay {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'VivGay';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser LavSip {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'LavSip';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser JanVan {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'JanVan';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser TonCri {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'TonCri';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser GonPac {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'GonPac';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser BriJac {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'BriJac';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser CalMed {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'CalMed';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser DocBay {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'DocBay';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser MauRei {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'MauRei';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser GinMue {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'GinMue';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
-            xADUser EldKli {
-
-            DomainName  = $node.DomainName;
-            UserName    = 'EldKli';
-            Description = 'Lability Test Lab user';
-            Password    = $Credential;
-            Ensure      = 'Present';
-            DependsOn   = '[xADDomain]ADDomain';
-        }
