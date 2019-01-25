@@ -1,522 +1,1040 @@
+File 'EleCha' {
 
+	
 
-File 'CheErd' {
-
-			DestinationPath = 'C:\CheErd';
-			Type            = 'Directory';
-		}
-        xSmbShare 'CheErd$' {
-
-            Name         = 'CheErd$';
-            Path         = 'C:\CheErd';
-            ChangeAccess = 'chrille\CheErd';
-            DependsOn    = '[File]CheErd';
-            Ensure       = 'Present';
-        }
-        File 'MadLue' {
-
-			DestinationPath = 'C:\MadLue';
-			Type            = 'Directory';
-		}
-        xSmbShare 'MadLue$' {
-
-            Name         = 'MadLue$';
-            Path         = 'C:\MadLue';
-            ChangeAccess = 'chrille\MadLue';
-            DependsOn    = '[File]MadLue';
-            Ensure       = 'Present';
-        }
-        File 'AmeGua' {
-
-			DestinationPath = 'C:\AmeGua';
-			Type            = 'Directory';
-		}
-        xSmbShare 'AmeGua$' {
-
-            Name         = 'AmeGua$';
-            Path         = 'C:\AmeGua';
-            ChangeAccess = 'chrille\AmeGua';
-            DependsOn    = '[File]AmeGua';
-            Ensure       = 'Present';
-        }
-        File 'BriGlo' {
-
-			DestinationPath = 'C:\BriGlo';
-			Type            = 'Directory';
-		}
-        xSmbShare 'BriGlo$' {
-
-            Name         = 'BriGlo$';
-            Path         = 'C:\BriGlo';
-            ChangeAccess = 'chrille\BriGlo';
-            DependsOn    = '[File]BriGlo';
-            Ensure       = 'Present';
-        }
-        File 'AllGoo' {
-
-			DestinationPath = 'C:\AllGoo';
-			Type            = 'Directory';
-		}
-        xSmbShare 'AllGoo$' {
-
-            Name         = 'AllGoo$';
-            Path         = 'C:\AllGoo';
-            ChangeAccess = 'chrille\AllGoo';
-            DependsOn    = '[File]AllGoo';
-            Ensure       = 'Present';
-        }
-        File 'SavSpo' {
-
-			DestinationPath = 'C:\SavSpo';
-			Type            = 'Directory';
-		}
-        xSmbShare 'SavSpo$' {
-
-            Name         = 'SavSpo$';
-            Path         = 'C:\SavSpo';
-            ChangeAccess = 'chrille\SavSpo';
-            DependsOn    = '[File]SavSpo';
-            Ensure       = 'Present';
-        }
-        File 'JerVeu' {
-
-			DestinationPath = 'C:\JerVeu';
-			Type            = 'Directory';
-		}
-        xSmbShare 'JerVeu$' {
-
-            Name         = 'JerVeu$';
-            Path         = 'C:\JerVeu';
-            ChangeAccess = 'chrille\JerVeu';
-            DependsOn    = '[File]JerVeu';
-            Ensure       = 'Present';
-        }
-        File 'DeoSch' {
-
-			DestinationPath = 'C:\DeoSch';
-			Type            = 'Directory';
-		}
-        xSmbShare 'DeoSch$' {
-
-            Name         = 'DeoSch$';
-            Path         = 'C:\DeoSch';
-            ChangeAccess = 'chrille\DeoSch';
-            DependsOn    = '[File]DeoSch';
-            Ensure       = 'Present';
-        }
-        File 'BetLub' {
-
-			DestinationPath = 'C:\BetLub';
-			Type            = 'Directory';
-		}
-        xSmbShare 'BetLub$' {
-
-            Name         = 'BetLub$';
-            Path         = 'C:\BetLub';
-            ChangeAccess = 'chrille\BetLub';
-            DependsOn    = '[File]BetLub';
-            Ensure       = 'Present';
-        }
-        File 'VivGay' {
-
-			DestinationPath = 'C:\VivGay';
-			Type            = 'Directory';
-		}
-        xSmbShare 'VivGay$' {
-
-            Name         = 'VivGay$';
-            Path         = 'C:\VivGay';
-            ChangeAccess = 'chrille\VivGay';
-            DependsOn    = '[File]VivGay';
-            Ensure       = 'Present';
-        }
-        File 'LavSip' {
-
-			DestinationPath = 'C:\LavSip';
-			Type            = 'Directory';
-		}
-        xSmbShare 'LavSip$' {
-
-            Name         = 'LavSip$';
-            Path         = 'C:\LavSip';
-            ChangeAccess = 'chrille\LavSip';
-            DependsOn    = '[File]LavSip';
-            Ensure       = 'Present';
-        }
-        File 'JanVan' {
-
-			DestinationPath = 'C:\JanVan';
-			Type            = 'Directory';
-		}
-        xSmbShare 'JanVan$' {
-
-            Name         = 'JanVan$';
-            Path         = 'C:\JanVan';
-            ChangeAccess = 'chrille\JanVan';
-            DependsOn    = '[File]JanVan';
-            Ensure       = 'Present';
-        }
-        File 'TonCri' {
-
-			DestinationPath = 'C:\TonCri';
-			Type            = 'Directory';
-		}
-        xSmbShare 'TonCri$' {
-
-            Name         = 'TonCri$';
-            Path         = 'C:\TonCri';
-            ChangeAccess = 'chrille\TonCri';
-            DependsOn    = '[File]TonCri';
-            Ensure       = 'Present';
-        }
-        File 'GonPac' {
-
-			DestinationPath = 'C:\GonPac';
-			Type            = 'Directory';
-		}
-        xSmbShare 'GonPac$' {
-
-            Name         = 'GonPac$';
-            Path         = 'C:\GonPac';
-            ChangeAccess = 'chrille\GonPac';
-            DependsOn    = '[File]GonPac';
-            Ensure       = 'Present';
-        }
-        File 'BriJac' {
-
-			DestinationPath = 'C:\BriJac';
-			Type            = 'Directory';
-		}
-        xSmbShare 'BriJac$' {
-
-            Name         = 'BriJac$';
-            Path         = 'C:\BriJac';
-            ChangeAccess = 'chrille\BriJac';
-            DependsOn    = '[File]BriJac';
-            Ensure       = 'Present';
-        }
-        File 'CalMed' {
-
-			DestinationPath = 'C:\CalMed';
-			Type            = 'Directory';
-		}
-        xSmbShare 'CalMed$' {
-
-            Name         = 'CalMed$';
-            Path         = 'C:\CalMed';
-            ChangeAccess = 'chrille\CalMed';
-            DependsOn    = '[File]CalMed';
-            Ensure       = 'Present';
-        }
-        File 'DocBay' {
-
-			DestinationPath = 'C:\DocBay';
-			Type            = 'Directory';
-		}
-        xSmbShare 'DocBay$' {
-
-            Name         = 'DocBay$';
-            Path         = 'C:\DocBay';
-            ChangeAccess = 'chrille\DocBay';
-            DependsOn    = '[File]DocBay';
-            Ensure       = 'Present';
-        }
-        File 'MauRei' {
-
-			DestinationPath = 'C:\MauRei';
-			Type            = 'Directory';
-		}
-        xSmbShare 'MauRei$' {
-
-            Name         = 'MauRei$';
-            Path         = 'C:\MauRei';
-            ChangeAccess = 'chrille\MauRei';
-            DependsOn    = '[File]MauRei';
-            Ensure       = 'Present';
-        }
-        File 'GinMue' {
-
-			DestinationPath = 'C:\GinMue';
-			Type            = 'Directory';
-		}
-        xSmbShare 'GinMue$' {
-
-            Name         = 'GinMue$';
-            Path         = 'C:\GinMue';
-            ChangeAccess = 'chrille\GinMue';
-            DependsOn    = '[File]GinMue';
-            Ensure       = 'Present';
-        }
-        File 'EldKli' {
-
-			DestinationPath = 'C:\EldKli';
-			Type            = 'Directory';
-		}
-        xSmbShare 'EldKli$' {
-
-            Name         = 'EldKli$';
-            Path         = 'C:\EldKli';
-            ChangeAccess = 'chrille\EldKli';
-            DependsOn    = '[File]EldKli';
-            Ensure       = 'Present';
-        }
-        File 'CheErd' {
-
-			DestinationPath = 'C:\CheErd';
-			Type            = 'Directory';
-		}
-        xSmbShare 'CheErd$' {
-
-            Name         = 'CheErd$';
-            Path         = 'C:\CheErd';
-            ChangeAccess = 'chrille\CheErd';
-            DependsOn    = '[File]CheErd';
-            Ensure       = 'Present';
-        }
-        File 'MadLue' {
-
-			DestinationPath = 'C:\MadLue';
-			Type            = 'Directory';
-		}
-        xSmbShare 'MadLue$' {
-
-            Name         = 'MadLue$';
-            Path         = 'C:\MadLue';
-            ChangeAccess = 'chrille\MadLue';
-            DependsOn    = '[File]MadLue';
-            Ensure       = 'Present';
-        }
-        File 'AmeGua' {
-
-			DestinationPath = 'C:\AmeGua';
-			Type            = 'Directory';
-		}
-        xSmbShare 'AmeGua$' {
-
-            Name         = 'AmeGua$';
-            Path         = 'C:\AmeGua';
-            ChangeAccess = 'chrille\AmeGua';
-            DependsOn    = '[File]AmeGua';
-            Ensure       = 'Present';
-        }
-        File 'BriGlo' {
-
-			DestinationPath = 'C:\BriGlo';
-			Type            = 'Directory';
-		}
-        xSmbShare 'BriGlo$' {
-
-            Name         = 'BriGlo$';
-            Path         = 'C:\BriGlo';
-            ChangeAccess = 'chrille\BriGlo';
-            DependsOn    = '[File]BriGlo';
-            Ensure       = 'Present';
-        }
-        File 'AllGoo' {
-
-			DestinationPath = 'C:\AllGoo';
-			Type            = 'Directory';
-		}
-        xSmbShare 'AllGoo$' {
-
-            Name         = 'AllGoo$';
-            Path         = 'C:\AllGoo';
-            ChangeAccess = 'chrille\AllGoo';
-            DependsOn    = '[File]AllGoo';
-            Ensure       = 'Present';
-        }
-        File 'SavSpo' {
-
-			DestinationPath = 'C:\SavSpo';
-			Type            = 'Directory';
-		}
-        xSmbShare 'SavSpo$' {
-
-            Name         = 'SavSpo$';
-            Path         = 'C:\SavSpo';
-            ChangeAccess = 'chrille\SavSpo';
-            DependsOn    = '[File]SavSpo';
-            Ensure       = 'Present';
-        }
-        File 'JerVeu' {
-
-			DestinationPath = 'C:\JerVeu';
-			Type            = 'Directory';
-		}
-        xSmbShare 'JerVeu$' {
-
-            Name         = 'JerVeu$';
-            Path         = 'C:\JerVeu';
-            ChangeAccess = 'chrille\JerVeu';
-            DependsOn    = '[File]JerVeu';
-            Ensure       = 'Present';
-        }
-        File 'DeoSch' {
-
-			DestinationPath = 'C:\DeoSch';
-			Type            = 'Directory';
-		}
-        xSmbShare 'DeoSch$' {
-
-            Name         = 'DeoSch$';
-            Path         = 'C:\DeoSch';
-            ChangeAccess = 'chrille\DeoSch';
-            DependsOn    = '[File]DeoSch';
-            Ensure       = 'Present';
-        }
-        File 'BetLub' {
-
-			DestinationPath = 'C:\BetLub';
-			Type            = 'Directory';
-		}
-        xSmbShare 'BetLub$' {
-
-            Name         = 'BetLub$';
-            Path         = 'C:\BetLub';
-            ChangeAccess = 'chrille\BetLub';
-            DependsOn    = '[File]BetLub';
-            Ensure       = 'Present';
-        }
-        File 'VivGay' {
-
-			DestinationPath = 'C:\VivGay';
-			Type            = 'Directory';
-		}
-        xSmbShare 'VivGay$' {
-
-            Name         = 'VivGay$';
-            Path         = 'C:\VivGay';
-            ChangeAccess = 'chrille\VivGay';
-            DependsOn    = '[File]VivGay';
-            Ensure       = 'Present';
-        }
-        File 'LavSip' {
-
-			DestinationPath = 'C:\LavSip';
-			Type            = 'Directory';
-		}
-        xSmbShare 'LavSip$' {
-
-            Name         = 'LavSip$';
-            Path         = 'C:\LavSip';
-            ChangeAccess = 'chrille\LavSip';
-            DependsOn    = '[File]LavSip';
-            Ensure       = 'Present';
-        }
-        File 'JanVan' {
-
-			DestinationPath = 'C:\JanVan';
-			Type            = 'Directory';
-		}
-        xSmbShare 'JanVan$' {
-
-            Name         = 'JanVan$';
-            Path         = 'C:\JanVan';
-            ChangeAccess = 'chrille\JanVan';
-            DependsOn    = '[File]JanVan';
-            Ensure       = 'Present';
-        }
-        File 'TonCri' {
-
-			DestinationPath = 'C:\TonCri';
-			Type            = 'Directory';
-		}
-        xSmbShare 'TonCri$' {
-
-            Name         = 'TonCri$';
-            Path         = 'C:\TonCri';
-            ChangeAccess = 'chrille\TonCri';
-            DependsOn    = '[File]TonCri';
-            Ensure       = 'Present';
-        }
-        File 'GonPac' {
-
-			DestinationPath = 'C:\GonPac';
-			Type            = 'Directory';
-		}
-        xSmbShare 'GonPac$' {
-
-            Name         = 'GonPac$';
-            Path         = 'C:\GonPac';
-            ChangeAccess = 'chrille\GonPac';
-            DependsOn    = '[File]GonPac';
-            Ensure       = 'Present';
-        }
-        File 'BriJac' {
-
-			DestinationPath = 'C:\BriJac';
-			Type            = 'Directory';
-		}
-        xSmbShare 'BriJac$' {
-
-            Name         = 'BriJac$';
-            Path         = 'C:\BriJac';
-            ChangeAccess = 'chrille\BriJac';
-            DependsOn    = '[File]BriJac';
-            Ensure       = 'Present';
-        }
-        File 'CalMed' {
-
-			DestinationPath = 'C:\CalMed';
-			Type            = 'Directory';
-		}
-        xSmbShare 'CalMed$' {
-
-            Name         = 'CalMed$';
-            Path         = 'C:\CalMed';
-            ChangeAccess = 'chrille\CalMed';
-            DependsOn    = '[File]CalMed';
-            Ensure       = 'Present';
-        }
-        File 'DocBay' {
-
-			DestinationPath = 'C:\DocBay';
-			Type            = 'Directory';
-		}
-        xSmbShare 'DocBay$' {
-
-            Name         = 'DocBay$';
-            Path         = 'C:\DocBay';
-            ChangeAccess = 'chrille\DocBay';
-            DependsOn    = '[File]DocBay';
-            Ensure       = 'Present';
-        }
-        File 'MauRei' {
-
-			DestinationPath = 'C:\MauRei';
-			Type            = 'Directory';
-		}
-        xSmbShare 'MauRei$' {
-
-            Name         = 'MauRei$';
-            Path         = 'C:\MauRei';
-            ChangeAccess = 'chrille\MauRei';
-            DependsOn    = '[File]MauRei';
-            Ensure       = 'Present';
-        }
-        File 'GinMue' {
-
-			DestinationPath = 'C:\GinMue';
-			Type            = 'Directory';
-		}
-        xSmbShare 'GinMue$' {
-
-            Name         = 'GinMue$';
-            Path         = 'C:\GinMue';
-            ChangeAccess = 'chrille\GinMue';
-            DependsOn    = '[File]GinMue';
-            Ensure       = 'Present';
-        }
-        File 'EldKli' {
-
-			DestinationPath = 'C:\EldKli';
-			Type            = 'Directory';
-		}
-        xSmbShare 'EldKli$' {
-
-            Name         = 'EldKli$';
-            Path         = 'C:\EldKli';
-            ChangeAccess = 'chrille\EldKli';
-            DependsOn    = '[File]EldKli';
-            Ensure       = 'Present';
-        }
+				DestinationPath = 'C:\EleCha';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'EleCha$' {
+
+	
+
+	            Name         = 'EleCha$';
+
+	            Path         = 'C:\EleCha';
+
+	            ChangeAccess = 'samira\EleCha';
+
+	            DependsOn    = '[File]EleCha';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'SamAli' {
+
+	
+
+				DestinationPath = 'C:\SamAli';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'SamAli$' {
+
+	
+
+	            Name         = 'SamAli$';
+
+	            Path         = 'C:\SamAli';
+
+	            ChangeAccess = 'samira\SamAli';
+
+	            DependsOn    = '[File]SamAli';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'GunAnd' {
+
+	
+
+				DestinationPath = 'C:\GunAnd';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'GunAnd$' {
+
+	
+
+	            Name         = 'GunAnd$';
+
+	            Path         = 'C:\GunAnd';
+
+	            ChangeAccess = 'samira\GunAnd';
+
+	            DependsOn    = '[File]GunAnd';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'YelBet' {
+
+	
+
+				DestinationPath = 'C:\YelBet';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'YelBet$' {
+
+	
+
+	            Name         = 'YelBet$';
+
+	            Path         = 'C:\YelBet';
+
+	            ChangeAccess = 'samira\YelBet';
+
+	            DependsOn    = '[File]YelBet';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'ElhAtl' {
+
+	
+
+				DestinationPath = 'C:\ElhAtl';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'ElhAtl$' {
+
+	
+
+	            Name         = 'ElhAtl$';
+
+	            Path         = 'C:\ElhAtl';
+
+	            ChangeAccess = 'samira\ElhAtl';
+
+	            DependsOn    = '[File]ElhAtl';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'SimPar' {
+
+	
+
+				DestinationPath = 'C:\SimPar';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'SimPar$' {
+
+	
+
+	            Name         = 'SimPar$';
+
+	            Path         = 'C:\SimPar';
+
+	            ChangeAccess = 'samira\SimPar';
+
+	            DependsOn    = '[File]SimPar';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'BenJer' {
+
+	
+
+				DestinationPath = 'C:\BenJer';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'BenJer$' {
+
+	
+
+	            Name         = 'BenJer$';
+
+	            Path         = 'C:\BenJer';
+
+	            ChangeAccess = 'samira\BenJer';
+
+	            DependsOn    = '[File]BenJer';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'SarMoa' {
+
+	
+
+				DestinationPath = 'C:\SarMoa';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'SarMoa$' {
+
+	
+
+	            Name         = 'SarMoa$';
+
+	            Path         = 'C:\SarMoa';
+
+	            ChangeAccess = 'samira\SarMoa';
+
+	            DependsOn    = '[File]SarMoa';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'LubBet' {
+
+	
+
+				DestinationPath = 'C:\LubBet';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'LubBet$' {
+
+	
+
+	            Name         = 'LubBet$';
+
+	            Path         = 'C:\LubBet';
+
+	            ChangeAccess = 'samira\LubBet';
+
+	            DependsOn    = '[File]LubBet';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'GayKri' {
+
+	
+
+				DestinationPath = 'C:\GayKri';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'GayKri$' {
+
+	
+
+	            Name         = 'GayKri$';
+
+	            Path         = 'C:\GayKri';
+
+	            ChangeAccess = 'samira\GayKri';
+
+	            DependsOn    = '[File]GayKri';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'AliLun' {
+
+	
+
+				DestinationPath = 'C:\AliLun';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'AliLun$' {
+
+	
+
+	            Name         = 'AliLun$';
+
+	            Path         = 'C:\AliLun';
+
+	            ChangeAccess = 'samira\AliLun';
+
+	            DependsOn    = '[File]AliLun';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'DanMaz' {
+
+	
+
+				DestinationPath = 'C:\DanMaz';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'DanMaz$' {
+
+	
+
+	            Name         = 'DanMaz$';
+
+	            Path         = 'C:\DanMaz';
+
+	            ChangeAccess = 'samira\DanMaz';
+
+	            DependsOn    = '[File]DanMaz';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'TonPal' {
+
+	
+
+				DestinationPath = 'C:\TonPal';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'TonPal$' {
+
+	
+
+	            Name         = 'TonPal$';
+
+	            Path         = 'C:\TonPal';
+
+	            ChangeAccess = 'samira\TonPal';
+
+	            DependsOn    = '[File]TonPal';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'EriGon' {
+
+	
+
+				DestinationPath = 'C:\EriGon';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'EriGon$' {
+
+	
+
+	            Name         = 'EriGon$';
+
+	            Path         = 'C:\EriGon';
+
+	            ChangeAccess = 'samira\EriGon';
+
+	            DependsOn    = '[File]EriGon';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'JacBri' {
+
+	
+
+				DestinationPath = 'C:\JacBri';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'JacBri$' {
+
+	
+
+	            Name         = 'JacBri$';
+
+	            Path         = 'C:\JacBri';
+
+	            ChangeAccess = 'samira\JacBri';
+
+	            DependsOn    = '[File]JacBri';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'KriMaz' {
+
+	
+
+				DestinationPath = 'C:\KriMaz';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'KriMaz$' {
+
+	
+
+	            Name         = 'KriMaz$';
+
+	            Path         = 'C:\KriMaz';
+
+	            ChangeAccess = 'samira\KriMaz';
+
+	            DependsOn    = '[File]KriMaz';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'SasJen' {
+
+	
+
+				DestinationPath = 'C:\SasJen';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'SasJen$' {
+
+	
+
+	            Name         = 'SasJen$';
+
+	            Path         = 'C:\SasJen';
+
+	            ChangeAccess = 'samira\SasJen';
+
+	            DependsOn    = '[File]SasJen';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'MorMaz' {
+
+	
+
+				DestinationPath = 'C:\MorMaz';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'MorMaz$' {
+
+	
+
+	            Name         = 'MorMaz$';
+
+	            Path         = 'C:\MorMaz';
+
+	            ChangeAccess = 'samira\MorMaz';
+
+	            DependsOn    = '[File]MorMaz';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'PelRos' {
+
+	
+
+				DestinationPath = 'C:\PelRos';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'PelRos$' {
+
+	
+
+	            Name         = 'PelRos$';
+
+	            Path         = 'C:\PelRos';
+
+	            ChangeAccess = 'samira\PelRos';
+
+	            DependsOn    = '[File]PelRos';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'EliJan' {
+
+	
+
+				DestinationPath = 'C:\EliJan';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'EliJan$' {
+
+	
+
+	            Name         = 'EliJan$';
+
+	            Path         = 'C:\EliJan';
+
+	            ChangeAccess = 'samira\EliJan';
+
+	            DependsOn    = '[File]EliJan';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'EleCha' {
+
+	
+
+				DestinationPath = 'C:\EleCha';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'EleCha$' {
+
+	
+
+	            Name         = 'EleCha$';
+
+	            Path         = 'C:\EleCha';
+
+	            ChangeAccess = 'samira\EleCha';
+
+	            DependsOn    = '[File]EleCha';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'SamAli' {
+
+	
+
+				DestinationPath = 'C:\SamAli';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'SamAli$' {
+
+	
+
+	            Name         = 'SamAli$';
+
+	            Path         = 'C:\SamAli';
+
+	            ChangeAccess = 'samira\SamAli';
+
+	            DependsOn    = '[File]SamAli';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'GunAnd' {
+
+	
+
+				DestinationPath = 'C:\GunAnd';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'GunAnd$' {
+
+	
+
+	            Name         = 'GunAnd$';
+
+	            Path         = 'C:\GunAnd';
+
+	            ChangeAccess = 'samira\GunAnd';
+
+	            DependsOn    = '[File]GunAnd';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'YelBet' {
+
+	
+
+				DestinationPath = 'C:\YelBet';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'YelBet$' {
+
+	
+
+	            Name         = 'YelBet$';
+
+	            Path         = 'C:\YelBet';
+
+	            ChangeAccess = 'samira\YelBet';
+
+	            DependsOn    = '[File]YelBet';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'ElhAtl' {
+
+	
+
+				DestinationPath = 'C:\ElhAtl';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'ElhAtl$' {
+
+	
+
+	            Name         = 'ElhAtl$';
+
+	            Path         = 'C:\ElhAtl';
+
+	            ChangeAccess = 'samira\ElhAtl';
+
+	            DependsOn    = '[File]ElhAtl';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'SimPar' {
+
+	
+
+				DestinationPath = 'C:\SimPar';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'SimPar$' {
+
+	
+
+	            Name         = 'SimPar$';
+
+	            Path         = 'C:\SimPar';
+
+	            ChangeAccess = 'samira\SimPar';
+
+	            DependsOn    = '[File]SimPar';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'BenJer' {
+
+	
+
+				DestinationPath = 'C:\BenJer';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'BenJer$' {
+
+	
+
+	            Name         = 'BenJer$';
+
+	            Path         = 'C:\BenJer';
+
+	            ChangeAccess = 'samira\BenJer';
+
+	            DependsOn    = '[File]BenJer';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'SarMoa' {
+
+	
+
+				DestinationPath = 'C:\SarMoa';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'SarMoa$' {
+
+	
+
+	            Name         = 'SarMoa$';
+
+	            Path         = 'C:\SarMoa';
+
+	            ChangeAccess = 'samira\SarMoa';
+
+	            DependsOn    = '[File]SarMoa';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'LubBet' {
+
+	
+
+				DestinationPath = 'C:\LubBet';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'LubBet$' {
+
+	
+
+	            Name         = 'LubBet$';
+
+	            Path         = 'C:\LubBet';
+
+	            ChangeAccess = 'samira\LubBet';
+
+	            DependsOn    = '[File]LubBet';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'GayKri' {
+
+	
+
+				DestinationPath = 'C:\GayKri';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'GayKri$' {
+
+	
+
+	            Name         = 'GayKri$';
+
+	            Path         = 'C:\GayKri';
+
+	            ChangeAccess = 'samira\GayKri';
+
+	            DependsOn    = '[File]GayKri';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'AliLun' {
+
+	
+
+				DestinationPath = 'C:\AliLun';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'AliLun$' {
+
+	
+
+	            Name         = 'AliLun$';
+
+	            Path         = 'C:\AliLun';
+
+	            ChangeAccess = 'samira\AliLun';
+
+	            DependsOn    = '[File]AliLun';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'DanMaz' {
+
+	
+
+				DestinationPath = 'C:\DanMaz';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'DanMaz$' {
+
+	
+
+	            Name         = 'DanMaz$';
+
+	            Path         = 'C:\DanMaz';
+
+	            ChangeAccess = 'samira\DanMaz';
+
+	            DependsOn    = '[File]DanMaz';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'TonPal' {
+
+	
+
+				DestinationPath = 'C:\TonPal';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'TonPal$' {
+
+	
+
+	            Name         = 'TonPal$';
+
+	            Path         = 'C:\TonPal';
+
+	            ChangeAccess = 'samira\TonPal';
+
+	            DependsOn    = '[File]TonPal';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'EriGon' {
+
+	
+
+				DestinationPath = 'C:\EriGon';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'EriGon$' {
+
+	
+
+	            Name         = 'EriGon$';
+
+	            Path         = 'C:\EriGon';
+
+	            ChangeAccess = 'samira\EriGon';
+
+	            DependsOn    = '[File]EriGon';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'JacBri' {
+
+	
+
+				DestinationPath = 'C:\JacBri';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'JacBri$' {
+
+	
+
+	            Name         = 'JacBri$';
+
+	            Path         = 'C:\JacBri';
+
+	            ChangeAccess = 'samira\JacBri';
+
+	            DependsOn    = '[File]JacBri';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'KriMaz' {
+
+	
+
+				DestinationPath = 'C:\KriMaz';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'KriMaz$' {
+
+	
+
+	            Name         = 'KriMaz$';
+
+	            Path         = 'C:\KriMaz';
+
+	            ChangeAccess = 'samira\KriMaz';
+
+	            DependsOn    = '[File]KriMaz';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'SasJen' {
+
+	
+
+				DestinationPath = 'C:\SasJen';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'SasJen$' {
+
+	
+
+	            Name         = 'SasJen$';
+
+	            Path         = 'C:\SasJen';
+
+	            ChangeAccess = 'samira\SasJen';
+
+	            DependsOn    = '[File]SasJen';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'MorMaz' {
+
+	
+
+				DestinationPath = 'C:\MorMaz';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'MorMaz$' {
+
+	
+
+	            Name         = 'MorMaz$';
+
+	            Path         = 'C:\MorMaz';
+
+	            ChangeAccess = 'samira\MorMaz';
+
+	            DependsOn    = '[File]MorMaz';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'PelRos' {
+
+	
+
+				DestinationPath = 'C:\PelRos';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'PelRos$' {
+
+	
+
+	            Name         = 'PelRos$';
+
+	            Path         = 'C:\PelRos';
+
+	            ChangeAccess = 'samira\PelRos';
+
+	            DependsOn    = '[File]PelRos';
+
+	            Ensure       = 'Present';
+
+	        }
+
+	        File 'EliJan' {
+
+	
+
+				DestinationPath = 'C:\EliJan';
+
+				Type            = 'Directory';
+
+			}
+
+	        xSmbShare 'EliJan$' {
+
+	
+
+	            Name         = 'EliJan$';
+
+	            Path         = 'C:\EliJan';
+
+	            ChangeAccess = 'samira\EliJan';
+
+	            DependsOn    = '[File]EliJan';
+
+	            Ensure       = 'Present';
+
+	        }
+
