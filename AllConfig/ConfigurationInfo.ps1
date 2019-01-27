@@ -1,9 +1,6 @@
 
 
 
-
-
-
 #To get labilities
 Install-Module -Name Lability
 
