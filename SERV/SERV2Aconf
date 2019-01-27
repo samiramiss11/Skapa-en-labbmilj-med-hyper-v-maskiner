@@ -54,7 +54,7 @@ ResourceID = "[xDNSServerAddress]PrimaryDNSClient";
 instance of MSFT_Credential as $MSFT_Credential1ref
 {
 Password = "Linux4Ever";
- UserName = "Administrator@chrille.local";
+ UserName = "Administrator@samira.local";
 
 };
 
@@ -62,7 +62,7 @@ instance of MSFT_xComputer as $MSFT_xComputer1ref
 {
 ResourceID = "[xComputer]DomainMembership";
  Credential = $MSFT_Credential1ref;
- DomainName = "chrille.local";
+ DomainName = "samira.local";
  SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::320::9::xComputer";
  Name = "SERV2";
  ModuleName = "xComputerManagement";
