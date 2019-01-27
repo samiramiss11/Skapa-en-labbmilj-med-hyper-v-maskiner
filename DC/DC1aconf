@@ -1,5 +1,7 @@
 
 
+
+
 ﻿/*
 @TargetNode='DC1'
 @GeneratedBy=Administratör
@@ -12,7 +14,7 @@ instance of MSFT_xIPAddress as $MSFT_xIPAddress1ref
 ResourceID = "[xIPAddress]PrimaryIPAddress";
  InterfaceAlias = "Ethernet";
  AddressFamily = "IPv4";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::32::13::xIPAddress";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::32::13::xIPAddress";
  ModuleName = "xNetworking";
  IPAddress = {
     "10.11.12.44"
@@ -26,7 +28,7 @@ instance of MSFT_xDefaultGatewayAddress as $MSFT_xDefaultGatewayAddress1ref
 {
 ResourceID = "[xDefaultGatewayAddress]PrimaryDefaultGateway";
  AddressFamily = "IPv4";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::42::17::xDefaultGatewayAddress";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::42::17::xDefaultGatewayAddress";
  Address = "10.11.12.1";
  ModuleName = "xNetworking";
  InterfaceAlias = "Ethernet";
@@ -39,7 +41,7 @@ instance of MSFT_xDNSServerAddress as $MSFT_xDNSServerAddress1ref
 {
 ResourceID = "[xDNSServerAddress]PrimaryDNSClient";
  AddressFamily = "IPv4";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::52::17::xDnsServerAddress";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::52::17::xDnsServerAddress";
  Address = {
     "127.0.0.1"
 };
@@ -52,7 +54,7 @@ ResourceID = "[xDNSServerAddress]PrimaryDNSClient";
 };
 instance of MSFT_xComputer as $MSFT_xComputer1ref
 {
-SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::78::9::xComputer";
+SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::78::9::xComputer";
  ModuleName = "xComputerManagement";
  ModuleVersion = "4.1.0.0";
  ResourceID = "[xComputer]Hostname";
@@ -66,7 +68,7 @@ instance of MSFT_RoleResource as $MSFT_RoleResource1ref
 ResourceID = "[WindowsFeature]ADDomainServices";
  IncludeAllSubFeature = True;
  Ensure = "Present";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::89::13::WindowsFeature";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::89::13::WindowsFeature";
  Name = "AD-Domain-Services";
  ModuleName = "PSDesiredStateConfiguration";
 
@@ -80,7 +82,7 @@ instance of MSFT_RoleResource as $MSFT_RoleResource2ref
 ResourceID = "[WindowsFeature]GPMC";
  IncludeAllSubFeature = True;
  Ensure = "Present";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::89::13::WindowsFeature";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::89::13::WindowsFeature";
  Name = "GPMC";
  ModuleName = "PSDesiredStateConfiguration";
 
@@ -94,7 +96,7 @@ instance of MSFT_RoleResource as $MSFT_RoleResource3ref
 ResourceID = "[WindowsFeature]RSATADTools";
  IncludeAllSubFeature = True;
  Ensure = "Present";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::89::13::WindowsFeature";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::89::13::WindowsFeature";
  Name = "RSAT-AD-Tools";
  ModuleName = "PSDesiredStateConfiguration";
 
@@ -121,7 +123,7 @@ instance of MSFT_xADDomain as $MSFT_xADDomain1ref
 {
 ResourceID = "[xADDomain]ADDomain";
  DomainAdministratorCredential = $MSFT_Credential1ref;
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::97::9::xADDomain";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::97::9::xADDomain";
  DomainName = "samira.local";
  ModuleName = "xActiveDirectory";
  SafemodeAdministratorPassword = $MSFT_Credential2ref;
@@ -144,11 +146,11 @@ Password = "Linux4Ever";
 instance of MSFT_xADUser as $MSFT_xADUser1ref
 {
 ResourceID = "[xADUser]User1";
- Description = "Labs Test Lab user";
+ Description = "Lability Test Lab user";
  UserName = "User1";
  Ensure = "Present";
  Password = $MSFT_Credential3ref;
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::105::9::xADUser";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::105::9::xADUser";
  DomainName = "samira.local";
  ModuleName = "xActiveDirectory";
  ModuleVersion = "2.23.0.0";
@@ -166,7 +168,7 @@ ResourceID = "[xADGroup]DomainAdmins";
  MembersToInclude = {
     "User1"
 };
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::115::9::xADGroup";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::115::9::xADGroup";
  GroupName = "Domain Admins";
  ModuleName = "xActiveDirectory";
  ModuleVersion = "2.23.0.0";
@@ -184,7 +186,7 @@ ResourceID = "[xADGroup]EnterpriseAdmins";
  MembersToInclude = {
     "User1"
 };
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::122::9::xADGroup";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::122::9::xADGroup";
  GroupScope = "Universal";
  GroupName = "Enterprise Admins";
  ModuleName = "xActiveDirectory";
@@ -207,11 +209,11 @@ Password = "Linux4Ever";
 instance of MSFT_xADUser as $MSFT_xADUser2ref
 {
 ResourceID = "[xADUser]EleCha";
- Description = "Labs Test Lab user";
+ Description = "Lability Test Lab user";
  UserName = "EleCha";
  Ensure = "Present";
  Password = $MSFT_Credential4ref;
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::129::3::xADUser";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::129::3::xADUser";
  DomainName = "samira.local";
  ModuleName = "xActiveDirectory";
  ModuleVersion = "2.23.0.0";
@@ -233,11 +235,11 @@ Password = "Linux4Ever";
 instance of MSFT_xADUser as $MSFT_xADUser3ref
 {
 ResourceID = "[xADUser]SamAli";
- Description = "Labs Test Lab user";
+ Description = "Lability Test Lab user";
  UserName = "SamAli";
  Ensure = "Present";
  Password = $MSFT_Credential5ref;
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::138::13::xADUser";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::138::13::xADUser";
  DomainName = "samira.local";
  ModuleName = "xActiveDirectory";
  ModuleVersion = "2.23.0.0";
@@ -259,11 +261,11 @@ Password = "Linux4Ever";
 instance of MSFT_xADUser as $MSFT_xADUser4ref
 {
 ResourceID = "[xADUser]GunAnd";
- Description = "Labs Test Lab user";
+ Description = "Lability Test Lab user";
  UserName = "GunAnd";
  Ensure = "Present";
  Password = $MSFT_Credential6ref;
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::147::13::xADUser";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::147::13::xADUser";
  DomainName = "samira.local";
  ModuleName = "xActiveDirectory";
  ModuleVersion = "2.23.0.0";
@@ -285,11 +287,11 @@ Password = "Linux4Ever";
 instance of MSFT_xADUser as $MSFT_xADUser5ref
 {
 ResourceID = "[xADUser]YelBet";
- Description = "Labs Test Lab user";
+ Description = "Lability Test Lab user";
  UserName = "YelBet";
  Ensure = "Present";
  Password = $MSFT_Credential7ref;
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::156::13::xADUser";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::156::13::xADUser";
  DomainName = "samira.local";
  ModuleName = "xActiveDirectory";
  ModuleVersion = "2.23.0.0";
@@ -311,11 +313,11 @@ Password = "Linux4Ever";
 instance of MSFT_xADUser as $MSFT_xADUser6ref
 {
 ResourceID = "[xADUser]ElhAtl";
- Description = "Labs Test Lab user";
+ Description = "Lability Test Lab user";
  UserName = "ElhAtl";
  Ensure = "Present";
  Password = $MSFT_Credential8ref;
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::165::13::xADUser";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::165::13::xADUser";
  DomainName = "samira.local";
  ModuleName = "xActiveDirectory";
  ModuleVersion = "2.23.0.0";
@@ -337,11 +339,11 @@ Password = "Linux4Ever";
 instance of MSFT_xADUser as $MSFT_xADUser7ref
 {
 ResourceID = "[xADUser]SimPar";
- Description = "Labs Test Lab user";
+ Description = "Lability Test Lab user";
  UserName = "SimPar";
  Ensure = "Present";
  Password = $MSFT_Credential9ref;
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::174::13::xADUser";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::174::13::xADUser";
  DomainName = "samira.local";
  ModuleName = "xActiveDirectory";
  ModuleVersion = "2.23.0.0";
@@ -363,11 +365,11 @@ Password = "Linux4Ever";
 instance of MSFT_xADUser as $MSFT_xADUser8ref
 {
 ResourceID = "[xADUser]BenJer";
- Description = "Labs Test Lab user";
+ Description = "Lability Test Lab user";
  UserName = "BenJer";
  Ensure = "Present";
  Password = $MSFT_Credential10ref;
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::183::13::xADUser";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::183::13::xADUser";
  DomainName = "samira.local";
  ModuleName = "xActiveDirectory";
  ModuleVersion = "2.23.0.0";
@@ -389,11 +391,11 @@ Password = "Linux4Ever";
 instance of MSFT_xADUser as $MSFT_xADUser9ref
 {
 ResourceID = "[xADUser]SarMoa";
- Description = "Labs Test Lab user";
+ Description = "Lability Test Lab user";
  UserName = "SarMoa";
  Ensure = "Present";
  Password = $MSFT_Credential11ref;
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::192::13::xADUser";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::192::13::xADUser";
  DomainName = "samira.local";
  ModuleName = "xActiveDirectory";
  ModuleVersion = "2.23.0.0";
@@ -415,11 +417,11 @@ Password = "Linux4Ever";
 instance of MSFT_xADUser as $MSFT_xADUser10ref
 {
 ResourceID = "[xADUser]LubBet";
- Description = "Labs Test Lab user";
+ Description = "Lability Test Lab user";
  UserName = "LubBet";
  Ensure = "Present";
  Password = $MSFT_Credential12ref;
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::201::13::xADUser";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::201::13::xADUser";
  DomainName = "samira.local";
  ModuleName = "xActiveDirectory";
  ModuleVersion = "2.23.0.0";
@@ -441,11 +443,11 @@ Password = "Linux4Ever";
 instance of MSFT_xADUser as $MSFT_xADUser11ref
 {
 ResourceID = "[xADUser]GayKri";
- Description = "Labs Test Lab user";
+ Description = "Lability Test Lab user";
  UserName = "GayKri";
  Ensure = "Present";
  Password = $MSFT_Credential13ref;
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::210::13::xADUser";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::210::13::xADUser";
  DomainName = "samira.local";
  ModuleName = "xActiveDirectory";
  ModuleVersion = "2.23.0.0";
@@ -467,11 +469,11 @@ Password = "Linux4Ever";
 instance of MSFT_xADUser as $MSFT_xADUser12ref
 {
 ResourceID = "[xADUser]AliLun";
- Description = "Labs Test Lab user";
+ Description = "Lability Test Lab user";
  UserName = "AliLun";
  Ensure = "Present";
  Password = $MSFT_Credential14ref;
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::219::13::xADUser";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::219::13::xADUser";
  DomainName = "samira.local";
  ModuleName = "xActiveDirectory";
  ModuleVersion = "2.23.0.0";
@@ -493,11 +495,11 @@ Password = "Linux4Ever";
 instance of MSFT_xADUser as $MSFT_xADUser13ref
 {
 ResourceID = "[xADUser]DanMaz";
- Description = "Labs Test Lab user";
+ Description = "Lability Test Lab user";
  UserName = "DanMaz";
  Ensure = "Present";
  Password = $MSFT_Credential15ref;
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::228::13::xADUser";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::228::13::xADUser";
  DomainName = "samira.local";
  ModuleName = "xActiveDirectory";
  ModuleVersion = "2.23.0.0";
@@ -519,11 +521,11 @@ Password = "Linux4Ever";
 instance of MSFT_xADUser as $MSFT_xADUser14ref
 {
 ResourceID = "[xADUser]TonPal";
- Description = "Labs Test Lab user";
+ Description = "Lability Test Lab user";
  UserName = "TonPal";
  Ensure = "Present";
  Password = $MSFT_Credential16ref;
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::237::13::xADUser";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::237::13::xADUser";
  DomainName = "samira.local";
  ModuleName = "xActiveDirectory";
  ModuleVersion = "2.23.0.0";
@@ -545,11 +547,11 @@ Password = "Linux4Ever";
 instance of MSFT_xADUser as $MSFT_xADUser15ref
 {
 ResourceID = "[xADUser]EriGon";
- Description = "Labs Test Lab user";
+ Description = "Lability Test Lab user";
  UserName = "EriGon";
  Ensure = "Present";
  Password = $MSFT_Credential17ref;
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::246::13::xADUser";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::246::13::xADUser";
  DomainName = "samira.local";
  ModuleName = "xActiveDirectory";
  ModuleVersion = "2.23.0.0";
@@ -571,11 +573,11 @@ Password = "Linux4Ever";
 instance of MSFT_xADUser as $MSFT_xADUser16ref
 {
 ResourceID = "[xADUser]JacBri";
- Description = "Labs Test Lab user";
+ Description = "Lability Test Lab user";
  UserName = "JacBri";
  Ensure = "Present";
  Password = $MSFT_Credential18ref;
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::255::13::xADUser";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::255::13::xADUser";
  DomainName = "samira.local";
  ModuleName = "xActiveDirectory";
  ModuleVersion = "2.23.0.0";
@@ -597,11 +599,11 @@ Password = "Linux4Ever";
 instance of MSFT_xADUser as $MSFT_xADUser17ref
 {
 ResourceID = "[xADUser]KriMaz";
- Description = "Labs Test Lab user";
+ Description = "Lability Test Lab user";
  UserName = "KriMaz";
  Ensure = "Present";
  Password = $MSFT_Credential19ref;
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::264::13::xADUser";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::264::13::xADUser";
  DomainName = "samira.local";
  ModuleName = "xActiveDirectory";
  ModuleVersion = "2.23.0.0";
@@ -623,11 +625,11 @@ Password = "Linux4Ever";
 instance of MSFT_xADUser as $MSFT_xADUser18ref
 {
 ResourceID = "[xADUser]SasJen";
- Description = "Labs Test Lab user";
+ Description = "Lability Test Lab user";
  UserName = "SasJen";
  Ensure = "Present";
  Password = $MSFT_Credential20ref;
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::273::13::xADUser";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::273::13::xADUser";
  DomainName = "samira.local";
  ModuleName = "xActiveDirectory";
  ModuleVersion = "2.23.0.0";
@@ -649,11 +651,11 @@ Password = "Linux4Ever";
 instance of MSFT_xADUser as $MSFT_xADUser19ref
 {
 ResourceID = "[xADUser]MorMaz";
- Description = "Labs Test Lab user";
+ Description = "Lability Test Lab user";
  UserName = "MorMaz";
  Ensure = "Present";
  Password = $MSFT_Credential21ref;
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::282::13::xADUser";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::282::13::xADUser";
  DomainName = "samira.local";
  ModuleName = "xActiveDirectory";
  ModuleVersion = "2.23.0.0";
@@ -675,11 +677,11 @@ Password = "Linux4Ever";
 instance of MSFT_xADUser as $MSFT_xADUser20ref
 {
 ResourceID = "[xADUser]PelRos";
- Description = "Labs Test Lab user";
+ Description = "Lability Test Lab user";
  UserName = "PelRos";
  Ensure = "Present";
  Password = $MSFT_Credential22ref;
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::291::13::xADUser";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::291::13::xADUser";
  DomainName = "samira.local";
  ModuleName = "xActiveDirectory";
  ModuleVersion = "2.23.0.0";
@@ -701,11 +703,11 @@ Password = "Linux4Ever";
 instance of MSFT_xADUser as $MSFT_xADUser21ref
 {
 ResourceID = "[xADUser]EliJan";
- Description = "Labs Test Lab user";
+ Description = "Lability Test Lab user";
  UserName = "EliJan";
  Ensure = "Present";
  Password = $MSFT_Credential23ref;
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::300::13::xADUser";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::300::13::xADUser";
  DomainName = "samira.local";
  ModuleName = "xActiveDirectory";
  ModuleVersion = "2.23.0.0";
@@ -723,7 +725,7 @@ ResourceID = "[File]Resurser";
  Type = "Directory";
  DestinationPath = "C:\\Resurser";
  ModuleName = "PSDesiredStateConfiguration";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::359::3::File";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::359::3::File";
 
 ModuleVersion = "1.0";
 
@@ -738,7 +740,7 @@ ResourceID = "[xSmbShare]Resurser";
 };
  Path = "C:\\Resurser";
  Ensure = "Present";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::364::9::xSmbShare";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::364::9::xSmbShare";
  Name = "Resurser";
  ModuleName = "xSmbShare";
  ModuleVersion = "2.1.0.0";
@@ -756,7 +758,7 @@ ResourceID = "[File]Gemensam";
  Type = "Directory";
  DestinationPath = "C:\\Gemensam";
  ModuleName = "PSDesiredStateConfiguration";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::372::3::File";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::372::3::File";
 
 ModuleVersion = "1.0";
 
@@ -771,7 +773,7 @@ ResourceID = "[xSmbShare]FilesShare";
 };
  Path = "C:\\Gemensam";
  Ensure = "Present";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::377::9::xSmbShare";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::377::9::xSmbShare";
  Name = "Gemensam";
  ModuleName = "xSmbShare";
  ModuleVersion = "2.1.0.0";
@@ -789,7 +791,7 @@ ResourceID = "[File]EleCha";
  Type = "Directory";
  DestinationPath = "C:\\EleCha";
  ModuleName = "PSDesiredStateConfiguration";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::387::3::File";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::387::3::File";
 
 ModuleVersion = "1.0";
 
@@ -804,7 +806,7 @@ ResourceID = "[xSmbShare]EleCha$";
 };
  Path = "C:\\EleCha";
  Ensure = "Present";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::391::9::xSmbShare";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::391::9::xSmbShare";
  Name = "EleCha$";
  ModuleName = "xSmbShare";
  ModuleVersion = "2.1.0.0";
@@ -822,7 +824,7 @@ ResourceID = "[File]SamAli";
  Type = "Directory";
  DestinationPath = "C:\\SamAli";
  ModuleName = "PSDesiredStateConfiguration";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::399::9::File";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::399::9::File";
 
 ModuleVersion = "1.0";
 
@@ -837,7 +839,7 @@ ResourceID = "[xSmbShare]SamAli$";
 };
  Path = "C:\\SamAli";
  Ensure = "Present";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::404::9::xSmbShare";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::404::9::xSmbShare";
  Name = "SamAli$";
  ModuleName = "xSmbShare";
  ModuleVersion = "2.1.0.0";
@@ -855,7 +857,7 @@ ResourceID = "[File]GunAnd";
  Type = "Directory";
  DestinationPath = "C:\\GunAnd";
  ModuleName = "PSDesiredStateConfiguration";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::412::9::File";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::412::9::File";
 
 ModuleVersion = "1.0";
 
@@ -870,7 +872,7 @@ ResourceID = "[xSmbShare]GunAnd$";
 };
  Path = "C:\\GunAnd";
  Ensure = "Present";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::417::9::xSmbShare";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::417::9::xSmbShare";
  Name = "GunAnd$";
  ModuleName = "xSmbShare";
  ModuleVersion = "2.1.0.0";
@@ -888,7 +890,7 @@ ResourceID = "[File]YelBet";
  Type = "Directory";
  DestinationPath = "C:\\YelBet";
  ModuleName = "PSDesiredStateConfiguration";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::425::9::File";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::425::9::File";
 
 ModuleVersion = "1.0";
 
@@ -903,7 +905,7 @@ ResourceID = "[xSmbShare]YelBet$";
 };
  Path = "C:\\YelBet";
  Ensure = "Present";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::430::9::xSmbShare";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::430::9::xSmbShare";
  Name = "YelBet$";
  ModuleName = "xSmbShare";
  ModuleVersion = "2.1.0.0";
@@ -921,7 +923,7 @@ ResourceID = "[File]ElhAtl";
  Type = "Directory";
  DestinationPath = "C:\\ElhAtl";
  ModuleName = "PSDesiredStateConfiguration";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::438::9::File";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::438::9::File";
 
 ModuleVersion = "1.0";
 
@@ -936,7 +938,7 @@ ResourceID = "[xSmbShare]ElhAtl$";
 };
  Path = "C:\\ElhAtl";
  Ensure = "Present";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::443::9::xSmbShare";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::443::9::xSmbShare";
  Name = "ElhAtl$";
  ModuleName = "xSmbShare";
  ModuleVersion = "2.1.0.0";
@@ -954,7 +956,7 @@ ResourceID = "[File]SimPar";
  Type = "Directory";
  DestinationPath = "C:\\SimPar";
  ModuleName = "PSDesiredStateConfiguration";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::451::9::File";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::451::9::File";
 
 ModuleVersion = "1.0";
 
@@ -969,7 +971,7 @@ ResourceID = "[xSmbShare]SimPar$";
 };
  Path = "C:\\SimPar";
  Ensure = "Present";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::456::9::xSmbShare";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::456::9::xSmbShare";
  Name = "SimPar$";
  ModuleName = "xSmbShare";
  ModuleVersion = "2.1.0.0";
@@ -987,7 +989,7 @@ ResourceID = "[File]BenJer";
  Type = "Directory";
  DestinationPath = "C:\\BenJer";
  ModuleName = "PSDesiredStateConfiguration";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::464::9::File";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::464::9::File";
 
 ModuleVersion = "1.0";
 
@@ -1002,7 +1004,7 @@ ResourceID = "[xSmbShare]BenJer$";
 };
  Path = "C:\\BenJer";
  Ensure = "Present";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::469::9::xSmbShare";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::469::9::xSmbShare";
  Name = "BenJer$";
  ModuleName = "xSmbShare";
  ModuleVersion = "2.1.0.0";
@@ -1020,7 +1022,7 @@ ResourceID = "[File]SarMoa";
  Type = "Directory";
  DestinationPath = "C:\\SarMoa";
  ModuleName = "PSDesiredStateConfiguration";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::477::9::File";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::477::9::File";
 
 ModuleVersion = "1.0";
 
@@ -1035,7 +1037,7 @@ ResourceID = "[xSmbShare]SarMoa$";
 };
  Path = "C:\\SarMoa";
  Ensure = "Present";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::482::9::xSmbShare";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::482::9::xSmbShare";
  Name = "SarMoa$";
  ModuleName = "xSmbShare";
  ModuleVersion = "2.1.0.0";
@@ -1053,7 +1055,7 @@ ResourceID = "[File]LubBet";
  Type = "Directory";
  DestinationPath = "C:\\LubBet";
  ModuleName = "PSDesiredStateConfiguration";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::490::9::File";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::490::9::File";
 
 ModuleVersion = "1.0";
 
@@ -1068,7 +1070,7 @@ ResourceID = "[xSmbShare]LubBet$";
 };
  Path = "C:\\LubBet";
  Ensure = "Present";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::495::9::xSmbShare";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::495::9::xSmbShare";
  Name = "LubBet$";
  ModuleName = "xSmbShare";
  ModuleVersion = "2.1.0.0";
@@ -1086,7 +1088,7 @@ ResourceID = "[File]GayKri";
  Type = "Directory";
  DestinationPath = "C:\\GayKri";
  ModuleName = "PSDesiredStateConfiguration";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::503::9::File";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::503::9::File";
 
 ModuleVersion = "1.0";
 
@@ -1101,7 +1103,7 @@ ResourceID = "[xSmbShare]GayKri$";
 };
  Path = "C:\\GayKri";
  Ensure = "Present";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::508::9::xSmbShare";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::508::9::xSmbShare";
  Name = "GayKri$";
  ModuleName = "xSmbShare";
  ModuleVersion = "2.1.0.0";
@@ -1119,7 +1121,7 @@ ResourceID = "[File]AliLun";
  Type = "Directory";
  DestinationPath = "C:\\AliLun";
  ModuleName = "PSDesiredStateConfiguration";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::516::9::File";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::516::9::File";
 
 ModuleVersion = "1.0";
 
@@ -1134,7 +1136,7 @@ ResourceID = "[xSmbShare]AliLun$";
 };
  Path = "C:\\AliLun";
  Ensure = "Present";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::521::9::xSmbShare";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::521::9::xSmbShare";
  Name = "AliLun$";
  ModuleName = "xSmbShare";
  ModuleVersion = "2.1.0.0";
@@ -1152,7 +1154,7 @@ ResourceID = "[File]DanMaz";
  Type = "Directory";
  DestinationPath = "C:\\DanMaz";
  ModuleName = "PSDesiredStateConfiguration";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::529::9::File";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::529::9::File";
 
 ModuleVersion = "1.0";
 
@@ -1167,7 +1169,7 @@ ResourceID = "[xSmbShare]DanMaz$";
 };
  Path = "C:\\DanMaz";
  Ensure = "Present";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::534::9::xSmbShare";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::534::9::xSmbShare";
  Name = "DanMaz$";
  ModuleName = "xSmbShare";
  ModuleVersion = "2.1.0.0";
@@ -1185,7 +1187,7 @@ ResourceID = "[File]TonPal";
  Type = "Directory";
  DestinationPath = "C:\\TonPal";
  ModuleName = "PSDesiredStateConfiguration";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::542::9::File";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::542::9::File";
 
 ModuleVersion = "1.0";
 
@@ -1200,7 +1202,7 @@ ResourceID = "[xSmbShare]TonPal$";
 };
  Path = "C:\\TonPal";
  Ensure = "Present";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::547::9::xSmbShare";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::547::9::xSmbShare";
  Name = "TonPal$";
  ModuleName = "xSmbShare";
  ModuleVersion = "2.1.0.0";
@@ -1218,7 +1220,7 @@ ResourceID = "[File]EriGon";
  Type = "Directory";
  DestinationPath = "C:\\EriGon";
  ModuleName = "PSDesiredStateConfiguration";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::555::9::File";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::555::9::File";
 
 ModuleVersion = "1.0";
 
@@ -1233,7 +1235,7 @@ ResourceID = "[xSmbShare]EriGon$";
 };
  Path = "C:\\EriGon";
  Ensure = "Present";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::560::9::xSmbShare";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::560::9::xSmbShare";
  Name = "EriGon$";
  ModuleName = "xSmbShare";
  ModuleVersion = "2.1.0.0";
@@ -1251,7 +1253,7 @@ ResourceID = "[File]JacBri";
  Type = "Directory";
  DestinationPath = "C:\\JacBri";
  ModuleName = "PSDesiredStateConfiguration";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::568::9::File";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::568::9::File";
 
 ModuleVersion = "1.0";
 
@@ -1266,7 +1268,7 @@ ResourceID = "[xSmbShare]JacBri$";
 };
  Path = "C:\\JacBri";
  Ensure = "Present";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::573::9::xSmbShare";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::573::9::xSmbShare";
  Name = "JacBri$";
  ModuleName = "xSmbShare";
  ModuleVersion = "2.1.0.0";
@@ -1284,7 +1286,7 @@ ResourceID = "[File]KriMaz";
  Type = "Directory";
  DestinationPath = "C:\\KriMaz";
  ModuleName = "PSDesiredStateConfiguration";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::581::9::File";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::581::9::File";
 
 ModuleVersion = "1.0";
 
@@ -1299,7 +1301,7 @@ ResourceID = "[xSmbShare]KriMaz$";
 };
  Path = "C:\\KriMaz";
  Ensure = "Present";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::586::9::xSmbShare";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::586::9::xSmbShare";
  Name = "KriMaz$";
  ModuleName = "xSmbShare";
  ModuleVersion = "2.1.0.0";
@@ -1317,7 +1319,7 @@ ResourceID = "[File]SasJen";
  Type = "Directory";
  DestinationPath = "C:\\SasJen";
  ModuleName = "PSDesiredStateConfiguration";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::594::9::File";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::594::9::File";
 
 ModuleVersion = "1.0";
 
@@ -1332,7 +1334,7 @@ ResourceID = "[xSmbShare]SasJen$";
 };
  Path = "C:\\SasJen";
  Ensure = "Present";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::599::9::xSmbShare";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::599::9::xSmbShare";
  Name = "SasJen$";
  ModuleName = "xSmbShare";
  ModuleVersion = "2.1.0.0";
@@ -1350,7 +1352,7 @@ ResourceID = "[File]MorMaz";
  Type = "Directory";
  DestinationPath = "C:\\MorMaz";
  ModuleName = "PSDesiredStateConfiguration";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::607::9::File";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::607::9::File";
 
 ModuleVersion = "1.0";
 
@@ -1365,7 +1367,7 @@ ResourceID = "[xSmbShare]MorMaz$";
 };
  Path = "C:\\MorMaz";
  Ensure = "Present";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::612::9::xSmbShare";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::612::9::xSmbShare";
  Name = "MorMaz$";
  ModuleName = "xSmbShare";
  ModuleVersion = "2.1.0.0";
@@ -1383,7 +1385,7 @@ ResourceID = "[File]PelRos";
  Type = "Directory";
  DestinationPath = "C:\\PelRos";
  ModuleName = "PSDesiredStateConfiguration";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::620::9::File";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::620::9::File";
 
 ModuleVersion = "1.0";
 
@@ -1398,7 +1400,7 @@ ResourceID = "[xSmbShare]PelRos$";
 };
  Path = "C:\\PelRos";
  Ensure = "Present";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::625::9::xSmbShare";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::625::9::xSmbShare";
  Name = "PelRos$";
  ModuleName = "xSmbShare";
  ModuleVersion = "2.1.0.0";
@@ -1416,7 +1418,7 @@ ResourceID = "[File]EliJan";
  Type = "Directory";
  DestinationPath = "C:\\EliJan";
  ModuleName = "PSDesiredStateConfiguration";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::633::9::File";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::633::9::File";
 
 ModuleVersion = "1.0";
 
@@ -1431,7 +1433,7 @@ ResourceID = "[xSmbShare]EliJan$";
 };
  Path = "C:\\EliJan";
  Ensure = "Present";
- SourceInfo = "C:\\Labs\\Configurations\\conf.ps1::638::9::xSmbShare";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::638::9::xSmbShare";
  Name = "EliJan$";
  ModuleName = "xSmbShare";
  ModuleVersion = "2.1.0.0";
