@@ -16,7 +16,7 @@ ResourceID = "[xIPAddress]PrimaryIPAddress";
  SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::32::13::xIPAddress";
  ModuleName = "xNetworking";
  IPAddress = {
-    "10.11.12.36"
+    "10.11.12.46"
 };
  ModuleVersion = "5.7.0.0";
 
