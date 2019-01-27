@@ -1,10 +1,8 @@
 
 
 
-
-
-﻿/*
-@TargetNode='SERV1'
+/*
+@TargetNode='SERV2'
 @GeneratedBy=Administratör
 @GenerationDate=01/21/2019 15:25:19
 @GenerationHost=DC1
@@ -18,7 +16,7 @@ ResourceID = "[xIPAddress]PrimaryIPAddress";
  SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::32::13::xIPAddress";
  ModuleName = "xNetworking";
  IPAddress = {
-    "10.11.12.46"
+    "10.11.12.47"
 };
  ModuleVersion = "5.7.0.0";
 
@@ -56,7 +54,7 @@ ResourceID = "[xDNSServerAddress]PrimaryDNSClient";
 instance of MSFT_Credential as $MSFT_Credential1ref
 {
 Password = "Linux4Ever";
- UserName = "Administrator@samira.local";
+ UserName = "Administrator@chrille.local";
 
 };
 
@@ -64,9 +62,9 @@ instance of MSFT_xComputer as $MSFT_xComputer1ref
 {
 ResourceID = "[xComputer]DomainMembership";
  Credential = $MSFT_Credential1ref;
- DomainName = "samira.local";
+ DomainName = "chrille.local";
  SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::320::9::xComputer";
- Name = "SERV1";
+ Name = "SERV2";
  ModuleName = "xComputerManagement";
  ModuleVersion = "4.1.0.0";
 
@@ -252,7 +250,7 @@ instance of MSFT_xSmbShare as $MSFT_xSmbShare1ref
 {
 ResourceID = "[xSmbShare]Resurser";
  ChangeAccess = {
-    "samira\\Everyone"
+    "chrille\\Everyone"
 };
  Path = "C:\\Resurser";
  Ensure = "Present";
@@ -285,7 +283,7 @@ instance of MSFT_xSmbShare as $MSFT_xSmbShare2ref
 {
 ResourceID = "[xSmbShare]FilesShare";
  ChangeAccess = {
-    "samira\\Everyone"
+    "chrille\\Everyone"
 };
  Path = "C:\\Gemensam";
  Ensure = "Present";
@@ -303,7 +301,7 @@ DependsOn = {
 };
 instance of MSFT_FileDirectoryConfiguration as $MSFT_FileDirectoryConfiguration3ref
 {
-ResourceID = "[File]EleCha";
+{ResourceID = "[File]EleCha";
  Type = "Directory";
  DestinationPath = "C:\\EleCha";
  ModuleName = "PSDesiredStateConfiguration";
