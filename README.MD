@@ -4,14 +4,18 @@
 
 To install and run the script:
 
-1.install lability with get lability.ps1
+1.Go to labbmilj--med-hyper-v-maskiner/AllConfig/ConfigurationInfo.ps1 and install them.
 
-2.Download the modules required with DownloadResources.ps1(this is optional)
+2.Run labbmilj--med-hyper-v-maskiner/AllConfig/TestConf.ps1
 
-3.run test-conf.ps1, do not forget to delete comments for Start-LabHostConfiguration, and change the path strings to where you have the files
+3.run test-conf.ps1, you need to  to delete comments for Start-LabHostConfiguration, and change the path strings to where you have the files.
 
-4. C: Labs Configurations conf.p1 conf -Outputpath C: Labs Configurations -ConfigurationData.confpsd1 is used to create the mof and meta mof files, run it if needed
+4.In folder Dc you find All Configuration for create Domains controller.
+5.In folder UserScript you find All information and Configuration for create and configure users.
+6.In folder AllConfig you find All Configuration for domains....
+7.run Start-LabConfiguration -ConfigurationData    labbmilj--med-hyper-v-maskiner/AllConfig/Conff.ps1
 
-5.run Start-LabConfiguration -ConfigurationData C: Labs Configurations conf.psd1 # with path to conf.psd1
+8.(optional) create a CSV file on the form Lastname, Firstname and run GenerateLabConfig to automatically generate userconfig for lability this is already done with users.csv
 
-(optional) create a CSV file on the form Lastname, Firstname and run GenerateLabConfig to automatically generate userconfig for lability this is already done with users.csv
+
+** in folder labbmilj--med-hyper-v-maskiner/Create an environment/  you can find scripts from Github to create an environment for your lab first.
