@@ -10,7 +10,7 @@ To install and run the script:
 
 3.run test-conf.ps1, you need to  to delete comments for Start-LabHostConfiguration, and change the path strings to where you have the files.
 
-4.In folder Dc you find All Configuration for create Domains controller.
+4.In folder DC or SERV you find All Configuration for create Your servers with different roles.
 5.In folder UserScript you find All information and Configuration for create and configure users.
 6.In folder AllConfig you find All Configuration for domains....
 7.run Start-LabConfiguration -ConfigurationData    labbmilj--med-hyper-v-maskiner/AllConfig/Conff.ps1
