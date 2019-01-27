@@ -1,0 +1,987 @@
+
+
+
+﻿/*
+@TargetNode='SERV1'
+@GeneratedBy=Administratör
+@GenerationDate=01/21/2019 15:25:19
+@GenerationHost=DC1
+*/
+
+instance of MSFT_xIPAddress as $MSFT_xIPAddress1ref
+{
+ResourceID = "[xIPAddress]PrimaryIPAddress";
+ InterfaceAlias = "Ethernet";
+ AddressFamily = "IPv4";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::32::13::xIPAddress";
+ ModuleName = "xNetworking";
+ IPAddress = {
+    "10.11.12.36"
+};
+ ModuleVersion = "5.7.0.0";
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_xDefaultGatewayAddress as $MSFT_xDefaultGatewayAddress1ref
+{
+ResourceID = "[xDefaultGatewayAddress]PrimaryDefaultGateway";
+ AddressFamily = "IPv4";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::42::17::xDefaultGatewayAddress";
+ Address = "10.11.12.1";
+ ModuleName = "xNetworking";
+ InterfaceAlias = "Ethernet";
+ ModuleVersion = "5.7.0.0";
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_xDNSServerAddress as $MSFT_xDNSServerAddress1ref
+{
+ResourceID = "[xDNSServerAddress]PrimaryDNSClient";
+ AddressFamily = "IPv4";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::52::17::xDnsServerAddress";
+ Address = {
+    "10.11.12.1"
+};
+ ModuleName = "xNetworking";
+ InterfaceAlias = "Ethernet";
+ ModuleVersion = "5.7.0.0";
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_Credential as $MSFT_Credential1ref
+{
+Password = "Linux4Ever";
+ UserName = "Administrator@samira.local";
+
+};
+
+instance of MSFT_xComputer as $MSFT_xComputer1ref
+{
+ResourceID = "[xComputer]DomainMembership";
+ Credential = $MSFT_Credential1ref;
+ DomainName = "samira.local";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::320::9::xComputer";
+ Name = "SERV1";
+ ModuleName = "xComputerManagement";
+ ModuleVersion = "4.1.0.0";
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_RoleResource as $MSFT_RoleResource1ref
+{
+ResourceID = "[WindowsFeature]WebDefaultDoc";
+ IncludeAllSubFeature = True;
+ Ensure = "Present";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::344::13::WindowsFeature";
+ Name = "Web-Default-Doc";
+ ModuleName = "PSDesiredStateConfiguration";
+
+ModuleVersion = "1.0";
+
+DependsOn = {
+
+    "[xComputer]DomainMembership"};
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_RoleResource as $MSFT_RoleResource2ref
+{
+ResourceID = "[WindowsFeature]WebDirBrowsing";
+ IncludeAllSubFeature = True;
+ Ensure = "Present";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::344::13::WindowsFeature";
+ Name = "Web-Dir-Browsing";
+ ModuleName = "PSDesiredStateConfiguration";
+
+ModuleVersion = "1.0";
+
+DependsOn = {
+
+    "[xComputer]DomainMembership"};
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_RoleResource as $MSFT_RoleResource3ref
+{
+ResourceID = "[WindowsFeature]WebHttpErrors";
+ IncludeAllSubFeature = True;
+ Ensure = "Present";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::344::13::WindowsFeature";
+ Name = "Web-Http-Errors";
+ ModuleName = "PSDesiredStateConfiguration";
+
+ModuleVersion = "1.0";
+
+DependsOn = {
+
+    "[xComputer]DomainMembership"};
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_RoleResource as $MSFT_RoleResource4ref
+{
+ResourceID = "[WindowsFeature]WebStaticContent";
+ IncludeAllSubFeature = True;
+ Ensure = "Present";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::344::13::WindowsFeature";
+ Name = "Web-Static-Content";
+ ModuleName = "PSDesiredStateConfiguration";
+
+ModuleVersion = "1.0";
+
+DependsOn = {
+
+    "[xComputer]DomainMembership"};
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_RoleResource as $MSFT_RoleResource5ref
+{
+ResourceID = "[WindowsFeature]WebHttpLogging";
+ IncludeAllSubFeature = True;
+ Ensure = "Present";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::344::13::WindowsFeature";
+ Name = "Web-Http-Logging";
+ ModuleName = "PSDesiredStateConfiguration";
+
+ModuleVersion = "1.0";
+
+DependsOn = {
+
+    "[xComputer]DomainMembership"};
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_RoleResource as $MSFT_RoleResource6ref
+{
+ResourceID = "[WindowsFeature]WebStatCompression";
+ IncludeAllSubFeature = True;
+ Ensure = "Present";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::344::13::WindowsFeature";
+ Name = "Web-Stat-Compression";
+ ModuleName = "PSDesiredStateConfiguration";
+
+ModuleVersion = "1.0";
+
+DependsOn = {
+
+    "[xComputer]DomainMembership"};
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_RoleResource as $MSFT_RoleResource7ref
+{
+ResourceID = "[WindowsFeature]WebFiltering";
+ IncludeAllSubFeature = True;
+ Ensure = "Present";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::344::13::WindowsFeature";
+ Name = "Web-Filtering";
+ ModuleName = "PSDesiredStateConfiguration";
+
+ModuleVersion = "1.0";
+
+DependsOn = {
+
+    "[xComputer]DomainMembership"};
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_RoleResource as $MSFT_RoleResource8ref
+{
+ResourceID = "[WindowsFeature]WebMgmtTools";
+ IncludeAllSubFeature = True;
+ Ensure = "Present";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::344::13::WindowsFeature";
+ Name = "Web-Mgmt-Tools";
+ ModuleName = "PSDesiredStateConfiguration";
+
+ModuleVersion = "1.0";
+
+DependsOn = {
+
+    "[xComputer]DomainMembership"};
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_RoleResource as $MSFT_RoleResource9ref
+{
+ResourceID = "[WindowsFeature]WebMgmtConsole";
+ IncludeAllSubFeature = True;
+ Ensure = "Present";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::344::13::WindowsFeature";
+ Name = "Web-Mgmt-Console";
+ ModuleName = "PSDesiredStateConfiguration";
+
+ModuleVersion = "1.0";
+
+DependsOn = {
+
+    "[xComputer]DomainMembership"};
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_FileDirectoryConfiguration as $MSFT_FileDirectoryConfiguration1ref
+{
+ResourceID = "[File]Resurser";
+ Type = "Directory";
+ DestinationPath = "C:\\Resurser";
+ ModuleName = "PSDesiredStateConfiguration";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::359::3::File";
+
+ModuleVersion = "1.0";
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_xSmbShare as $MSFT_xSmbShare1ref
+{
+ResourceID = "[xSmbShare]Resurser";
+ ChangeAccess = {
+    "samira\\Everyone"
+};
+ Path = "C:\\Resurser";
+ Ensure = "Present";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::364::9::xSmbShare";
+ Name = "Resurser";
+ ModuleName = "xSmbShare";
+ ModuleVersion = "2.1.0.0";
+
+DependsOn = {
+
+    "[File]Resurser"};
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_FileDirectoryConfiguration as $MSFT_FileDirectoryConfiguration2ref
+{
+ResourceID = "[File]Gemensam";
+ Type = "Directory";
+ DestinationPath = "C:\\Gemensam";
+ ModuleName = "PSDesiredStateConfiguration";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::372::3::File";
+
+ModuleVersion = "1.0";
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_xSmbShare as $MSFT_xSmbShare2ref
+{
+ResourceID = "[xSmbShare]FilesShare";
+ ChangeAccess = {
+    "samira\\Everyone"
+};
+ Path = "C:\\Gemensam";
+ Ensure = "Present";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::377::9::xSmbShare";
+ Name = "Gemensam";
+ ModuleName = "xSmbShare";
+ ModuleVersion = "2.1.0.0";
+
+DependsOn = {
+
+    "[File]Gemensam"};
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_FileDirectoryConfiguration as $MSFT_FileDirectoryConfiguration3ref
+{
+ResourceID = "[File]EleCha";
+ Type = "Directory";
+ DestinationPath = "C:\\EleCha";
+ ModuleName = "PSDesiredStateConfiguration";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::387::3::File";
+
+ModuleVersion = "1.0";
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_xSmbShare as $MSFT_xSmbShare3ref
+{
+ResourceID = "[xSmbShare]EleCha$";
+ ChangeAccess = {
+    "samira\\EleCha"
+};
+ Path = "C:\\EleCha";
+ Ensure = "Present";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::391::9::xSmbShare";
+ Name = "EleCha$";
+ ModuleName = "xSmbShare";
+ ModuleVersion = "2.1.0.0";
+
+DependsOn = {
+
+    "[File]EleCha"};
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_FileDirectoryConfiguration as $MSFT_FileDirectoryConfiguration4ref
+{
+ResourceID = "[File]SamAli";
+ Type = "Directory";
+ DestinationPath = "C:\\SamAli";
+ ModuleName = "PSDesiredStateConfiguration";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::399::9::File";
+
+ModuleVersion = "1.0";
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_xSmbShare as $MSFT_xSmbShare4ref
+{
+ResourceID = "[xSmbShare]SamAli$";
+ ChangeAccess = {
+    "samira\\SamAli"
+};
+ Path = "C:\\SamAli";
+ Ensure = "Present";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::404::9::xSmbShare";
+ Name = "SamAli$";
+ ModuleName = "xSmbShare";
+ ModuleVersion = "2.1.0.0";
+
+DependsOn = {
+
+    "[File]SamAli"};
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_FileDirectoryConfiguration as $MSFT_FileDirectoryConfiguration5ref
+{
+ResourceID = "[File]GunAnd";
+ Type = "Directory";
+ DestinationPath = "C:\\GunAnd";
+ ModuleName = "PSDesiredStateConfiguration";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::412::9::File";
+
+ModuleVersion = "1.0";
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_xSmbShare as $MSFT_xSmbShare5ref
+{
+ResourceID = "[xSmbShare]GunAnd$";
+ ChangeAccess = {
+    "samira\\GunAnd"
+};
+ Path = "C:\\GunAnd";
+ Ensure = "Present";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::417::9::xSmbShare";
+ Name = "GunAnd$";
+ ModuleName = "xSmbShare";
+ ModuleVersion = "2.1.0.0";
+
+DependsOn = {
+
+    "[File]GunAnd"};
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_FileDirectoryConfiguration as $MSFT_FileDirectoryConfiguration6ref
+{
+ResourceID = "[File]YelBet";
+ Type = "Directory";
+ DestinationPath = "C:\\YelBet";
+ ModuleName = "PSDesiredStateConfiguration";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::425::9::File";
+
+ModuleVersion = "1.0";
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_xSmbShare as $MSFT_xSmbShare6ref
+{
+ResourceID = "[xSmbShare]YelBet$";
+ ChangeAccess = {
+    "samira\\YelBet"
+};
+ Path = "C:\\YelBet";
+ Ensure = "Present";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::430::9::xSmbShare";
+ Name = "YelBet$";
+ ModuleName = "xSmbShare";
+ ModuleVersion = "2.1.0.0";
+
+DependsOn = {
+
+    "[File]YelBet"};
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_FileDirectoryConfiguration as $MSFT_FileDirectoryConfiguration7ref
+{
+ResourceID = "[File]ElhAtl";
+ Type = "Directory";
+ DestinationPath = "C:\\ElhAtl";
+ ModuleName = "PSDesiredStateConfiguration";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::438::9::File";
+
+ModuleVersion = "1.0";
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_xSmbShare as $MSFT_xSmbShare7ref
+{
+ResourceID = "[xSmbShare]ElhAtl$";
+ ChangeAccess = {
+    "samira\\ElhAtl"
+};
+ Path = "C:\\ElhAtl";
+ Ensure = "Present";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::443::9::xSmbShare";
+ Name = "ElhAtl$";
+ ModuleName = "xSmbShare";
+ ModuleVersion = "2.1.0.0";
+
+DependsOn = {
+
+    "[File]ElhAtl"};
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_FileDirectoryConfiguration as $MSFT_FileDirectoryConfiguration8ref
+{
+ResourceID = "[File]SimPar";
+ Type = "Directory";
+ DestinationPath = "C:\\SimPar";
+ ModuleName = "PSDesiredStateConfiguration";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::451::9::File";
+
+ModuleVersion = "1.0";
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_xSmbShare as $MSFT_xSmbShare8ref
+{
+ResourceID = "[xSmbShare]SimPar$";
+ ChangeAccess = {
+    "samira\\SimPar"
+};
+ Path = "C:\\SimPar";
+ Ensure = "Present";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::456::9::xSmbShare";
+ Name = "SimPar$";
+ ModuleName = "xSmbShare";
+ ModuleVersion = "2.1.0.0";
+
+DependsOn = {
+
+    "[File]SimPar"};
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_FileDirectoryConfiguration as $MSFT_FileDirectoryConfiguration9ref
+{
+ResourceID = "[File]BenJer";
+ Type = "Directory";
+ DestinationPath = "C:\\BenJer";
+ ModuleName = "PSDesiredStateConfiguration";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::464::9::File";
+
+ModuleVersion = "1.0";
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_xSmbShare as $MSFT_xSmbShare9ref
+{
+ResourceID = "[xSmbShare]BenJer$";
+ ChangeAccess = {
+    "samira\\BenJer"
+};
+ Path = "C:\\BenJer";
+ Ensure = "Present";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::469::9::xSmbShare";
+ Name = "BenJer$";
+ ModuleName = "xSmbShare";
+ ModuleVersion = "2.1.0.0";
+
+DependsOn = {
+
+    "[File]BenJer"};
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_FileDirectoryConfiguration as $MSFT_FileDirectoryConfiguration10ref
+{
+ResourceID = "[File]SarMoa";
+ Type = "Directory";
+ DestinationPath = "C:\\SarMoa";
+ ModuleName = "PSDesiredStateConfiguration";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::477::9::File";
+
+ModuleVersion = "1.0";
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_xSmbShare as $MSFT_xSmbShare10ref
+{
+ResourceID = "[xSmbShare]SarMoa$";
+ ChangeAccess = {
+    "samira\\SarMoa"
+};
+ Path = "C:\\SarMoa";
+ Ensure = "Present";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::482::9::xSmbShare";
+ Name = "SarMoa$";
+ ModuleName = "xSmbShare";
+ ModuleVersion = "2.1.0.0";
+
+DependsOn = {
+
+    "[File]SarMoa"};
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_FileDirectoryConfiguration as $MSFT_FileDirectoryConfiguration11ref
+{
+ResourceID = "[File]LubBet";
+ Type = "Directory";
+ DestinationPath = "C:\\LubBet";
+ ModuleName = "PSDesiredStateConfiguration";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::490::9::File";
+
+ModuleVersion = "1.0";
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_xSmbShare as $MSFT_xSmbShare11ref
+{
+ResourceID = "[xSmbShare]LubBet$";
+ ChangeAccess = {
+    "samira\\LubBet"
+};
+ Path = "C:\\LubBet";
+ Ensure = "Present";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::495::9::xSmbShare";
+ Name = "LubBet$";
+ ModuleName = "xSmbShare";
+ ModuleVersion = "2.1.0.0";
+
+DependsOn = {
+
+    "[File]LubBet"};
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_FileDirectoryConfiguration as $MSFT_FileDirectoryConfiguration12ref
+{
+ResourceID = "[File]GayKri";
+ Type = "Directory";
+ DestinationPath = "C:\\GayKri";
+ ModuleName = "PSDesiredStateConfiguration";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::503::9::File";
+
+ModuleVersion = "1.0";
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_xSmbShare as $MSFT_xSmbShare12ref
+{
+ResourceID = "[xSmbShare]GayKri$";
+ ChangeAccess = {
+    "samira\\GayKri"
+};
+ Path = "C:\\GayKri";
+ Ensure = "Present";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::508::9::xSmbShare";
+ Name = "GayKri$";
+ ModuleName = "xSmbShare";
+ ModuleVersion = "2.1.0.0";
+
+DependsOn = {
+
+    "[File]GayKri"};
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_FileDirectoryConfiguration as $MSFT_FileDirectoryConfiguration13ref
+{
+ResourceID = "[File]AliLun";
+ Type = "Directory";
+ DestinationPath = "C:\\AliLun";
+ ModuleName = "PSDesiredStateConfiguration";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::516::9::File";
+
+ModuleVersion = "1.0";
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_xSmbShare as $MSFT_xSmbShare13ref
+{
+ResourceID = "[xSmbShare]AliLun$";
+ ChangeAccess = {
+    "samira\\AliLun"
+};
+ Path = "C:\\AliLun";
+ Ensure = "Present";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::521::9::xSmbShare";
+ Name = "AliLun$";
+ ModuleName = "xSmbShare";
+ ModuleVersion = "2.1.0.0";
+
+DependsOn = {
+
+    "[File]AliLun"};
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_FileDirectoryConfiguration as $MSFT_FileDirectoryConfiguration14ref
+{
+ResourceID = "[File]DanMaz";
+ Type = "Directory";
+ DestinationPath = "C:\\DanMaz";
+ ModuleName = "PSDesiredStateConfiguration";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::529::9::File";
+
+ModuleVersion = "1.0";
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_xSmbShare as $MSFT_xSmbShare14ref
+{
+ResourceID = "[xSmbShare]DanMaz$";
+ ChangeAccess = {
+    "samira\\DanMaz"
+};
+ Path = "C:\\DanMaz";
+ Ensure = "Present";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::534::9::xSmbShare";
+ Name = "DanMaz$";
+ ModuleName = "xSmbShare";
+ ModuleVersion = "2.1.0.0";
+
+DependsOn = {
+
+    "[File]DanMaz"};
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_FileDirectoryConfiguration as $MSFT_FileDirectoryConfiguration15ref
+{
+ResourceID = "[File]TonPal";
+ Type = "Directory";
+ DestinationPath = "C:\\TonPal";
+ ModuleName = "PSDesiredStateConfiguration";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::542::9::File";
+
+ModuleVersion = "1.0";
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_xSmbShare as $MSFT_xSmbShare15ref
+{
+ResourceID = "[xSmbShare]TonPal$";
+ ChangeAccess = {
+    "samira\\TonPal"
+};
+ Path = "C:\\TonPal";
+ Ensure = "Present";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::547::9::xSmbShare";
+ Name = "TonPal$";
+ ModuleName = "xSmbShare";
+ ModuleVersion = "2.1.0.0";
+
+DependsOn = {
+
+    "[File]TonPal"};
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_FileDirectoryConfiguration as $MSFT_FileDirectoryConfiguration16ref
+{
+ResourceID = "[File]EriGon";
+ Type = "Directory";
+ DestinationPath = "C:\\EriGon";
+ ModuleName = "PSDesiredStateConfiguration";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::555::9::File";
+
+ModuleVersion = "1.0";
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_xSmbShare as $MSFT_xSmbShare16ref
+{
+ResourceID = "[xSmbShare]EriGon$";
+ ChangeAccess = {
+    "samira\\EriGon"
+};
+ Path = "C:\\EriGon";
+ Ensure = "Present";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::560::9::xSmbShare";
+ Name = "EriGon$";
+ ModuleName = "xSmbShare";
+ ModuleVersion = "2.1.0.0";
+
+DependsOn = {
+
+    "[File]EriGon"};
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_FileDirectoryConfiguration as $MSFT_FileDirectoryConfiguration17ref
+{
+ResourceID = "[File]JacBri";
+ Type = "Directory";
+ DestinationPath = "C:\\JacBri";
+ ModuleName = "PSDesiredStateConfiguration";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::568::9::File";
+
+ModuleVersion = "1.0";
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_xSmbShare as $MSFT_xSmbShare17ref
+{
+ResourceID = "[xSmbShare]JacBri$";
+ ChangeAccess = {
+    "samira\\JacBri"
+};
+ Path = "C:\\JacBri";
+ Ensure = "Present";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::573::9::xSmbShare";
+ Name = "JacBri$";
+ ModuleName = "xSmbShare";
+ ModuleVersion = "2.1.0.0";
+
+DependsOn = {
+
+    "[File]JacBri"};
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_FileDirectoryConfiguration as $MSFT_FileDirectoryConfiguration18ref
+{
+ResourceID = "[File]KriMaz";
+ Type = "Directory";
+ DestinationPath = "C:\\KriMaz";
+ ModuleName = "PSDesiredStateConfiguration";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::581::9::File";
+
+ModuleVersion = "1.0";
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_xSmbShare as $MSFT_xSmbShare18ref
+{
+ResourceID = "[xSmbShare]KriMaz$";
+ ChangeAccess = {
+    "samira\\KriMaz"
+};
+ Path = "C:\\KriMaz";
+ Ensure = "Present";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::586::9::xSmbShare";
+ Name = "KriMaz$";
+ ModuleName = "xSmbShare";
+ ModuleVersion = "2.1.0.0";
+
+DependsOn = {
+
+    "[File]KriMaz"};
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_FileDirectoryConfiguration as $MSFT_FileDirectoryConfiguration19ref
+{
+ResourceID = "[File]SasJen";
+ Type = "Directory";
+ DestinationPath = "C:\\SasJen";
+ ModuleName = "PSDesiredStateConfiguration";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::594::9::File";
+
+ModuleVersion = "1.0";
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_xSmbShare as $MSFT_xSmbShare19ref
+{
+ResourceID = "[xSmbShare]SasJen$";
+ ChangeAccess = {
+    "samira\\SasJen"
+};
+ Path = "C:\\SasJen";
+ Ensure = "Present";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::599::9::xSmbShare";
+ Name = "SasJen$";
+ ModuleName = "xSmbShare";
+ ModuleVersion = "2.1.0.0";
+
+DependsOn = {
+
+    "[File]SasJen"};
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_FileDirectoryConfiguration as $MSFT_FileDirectoryConfiguration20ref
+{
+ResourceID = "[File]MorMaz";
+ Type = "Directory";
+ DestinationPath = "C:\\MorMaz";
+ ModuleName = "PSDesiredStateConfiguration";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::607::9::File";
+
+ModuleVersion = "1.0";
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_xSmbShare as $MSFT_xSmbShare20ref
+{
+ResourceID = "[xSmbShare]MorMaz$";
+ ChangeAccess = {
+    "samira\\MorMaz"
+};
+ Path = "C:\\MorMaz";
+ Ensure = "Present";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::612::9::xSmbShare";
+ Name = "MorMaz$";
+ ModuleName = "xSmbShare";
+ ModuleVersion = "2.1.0.0";
+
+DependsOn = {
+
+    "[File]MorMaz"};
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_FileDirectoryConfiguration as $MSFT_FileDirectoryConfiguration21ref
+{
+ResourceID = "[File]PelRos";
+ Type = "Directory";
+ DestinationPath = "C:\\PelRos";
+ ModuleName = "PSDesiredStateConfiguration";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::620::9::File";
+
+ModuleVersion = "1.0";
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_xSmbShare as $MSFT_xSmbShare21ref
+{
+ResourceID = "[xSmbShare]PelRos$";
+ ChangeAccess = {
+    "samira\\PelRos"
+};
+ Path = "C:\\PelRos";
+ Ensure = "Present";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::625::9::xSmbShare";
+ Name = "PelRos$";
+ ModuleName = "xSmbShare";
+ ModuleVersion = "2.1.0.0";
+
+DependsOn = {
+
+    "[File]PelRos"};
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_FileDirectoryConfiguration as $MSFT_FileDirectoryConfiguration22ref
+{
+ResourceID = "[File]EliJah";
+ Type = "Directory";
+ DestinationPath = "C:\\EliJah";
+ ModuleName = "PSDesiredStateConfiguration";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::633::9::File";
+
+ModuleVersion = "1.0";
+
+ ConfigurationName = "conf";
+
+};
+instance of MSFT_xSmbShare as $MSFT_xSmbShare22ref
+{
+ResourceID = "[xSmbShare]EliJah$";
+ ChangeAccess = {
+    "samira\\EliJah"
+};
+ Path = "C:\\EliJah";
+ Ensure = "Present";
+ SourceInfo = "C:\\Lability\\Configurations\\conf.ps1::638::9::xSmbShare";
+ Name = "EliJah$";
+ ModuleName = "xSmbShare";
+ ModuleVersion = "2.1.0.0";
+
+DependsOn = {
+
+    "[File]EliJah"};
+
+ ConfigurationName = "conf";
+
+};
+instance of OMI_ConfigurationDocument
+
+
+                    {
+ Version="2.0.0";
+ 
+
+                        MinimumCompatibleVersion = "1.0.0";
+ 
+
+                        CompatibleVersionAdditionalProperties= {"Omi_BaseResource:ConfigurationName"};
+ 
+
+                        Author="Administratör";
+ 
+
+                        GenerationDate="01/21/2019 15:25:19";
+ 
+
+                        GenerationHost="DC1";
+ 
+
+                        Name="conf";
+
+
+                    };
