@@ -18,4 +18,4 @@ To install and run the script:
 8.(optional) create a CSV file on the form Lastname, Firstname and run GenerateLabConfig to automatically generate userconfig for lability this is already done with users.csv
 
 
-** in folder labbmiljö-med-hyper-v-maskiner/Create an environment/  you can find scripts from Github to create an environment for your lab first.
+** in folder labbmiljö-med-hyper-v-maskiner/Create an environment/  you can find scripts from Github to create an environment for your lab first. Scrips is on orginal and you need to change paths ... for your environment.
