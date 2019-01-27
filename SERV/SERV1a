@@ -1,0 +1,29 @@
+
+
+
+﻿/*
+@TargetNode='SERV1'
+@GeneratedBy=Administratör
+@GenerationDate=01/21/2019 15:25:19
+@GenerationHost=DC1
+*/
+
+instance of MSFT_DSCMetaConfiguration as $MSFT_DSCMetaConfiguration1ref
+{
+AllowModuleOverwrite = True;
+ ConfigurationMode = "ApplyOnly";
+ RebootNodeIfNeeded = True;
+ CertificateID = NULL;
+
+};
+
+instance of OMI_ConfigurationDocument
+{
+ Version="2.0.0";
+ MinimumCompatibleVersion = "1.0.0";
+ CompatibleVersionAdditionalProperties= { };
+ Author="Administratör";
+ GenerationDate="01/21/2019 15:25:19";
+ GenerationHost="DC1";
+ Name="conf";
+};
